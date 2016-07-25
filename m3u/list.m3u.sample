@@ -1,0 +1,2121 @@
+#EXTM3U
+#EXTINF:-1 group-title="Tunisia",National 1
+http://htp.brasilia.me/iptv/ch1?code={YOUR_CODE}
+#EXTINF:-1,National 2
+http://htp.brasilia.me/iptv/ch2?code={YOUR_CODE}
+#EXTINF:-1,Al Hiwar Ettounsi TV
+http://htp.brasilia.me/iptv/ch3?code={YOUR_CODE}
+#EXTINF:-1,Attasia TV
+http://htp.brasilia.me/iptv/ch4?code={YOUR_CODE}
+#EXTINF:-1,Nessma TV
+http://htp.brasilia.me/iptv/ch5?code={YOUR_CODE}
+#EXTINF:-1,Hannibal TV
+http://htp.brasilia.me/iptv/ch6?code={YOUR_CODE}
+#EXTINF:-1,First tv
+http://htp.brasilia.me/iptv/ch801?code={YOUR_CODE}
+#EXTINF:-1,Telvza TV
+http://htq.brasilia.me/iptv/ch12?code={YOUR_CODE}
+#EXTINF:-1,Maghreb 24
+http://htq.brasilia.me/iptv/ch451?code={YOUR_CODE}
+#EXTINF:-1,Al Janoubia
+http://htp.brasilia.me/iptv/ch7?code={YOUR_CODE}
+#EXTINF:-1,M Tunisia
+http://htq.brasilia.me/iptv/ch14?code={YOUR_CODE}
+#EXTINF:-1,TNN
+http://htq.brasilia.me/iptv/ch10?code={YOUR_CODE}
+#EXTINF:-1,Tounesna
+http://htp.brasilia.me/iptv/ch8?code={YOUR_CODE}
+#EXTINF:-1,Al Mustakilla
+http://htq.brasilia.me/iptv/ch77?code={YOUR_CODE}
+#EXTINF:-1,Zaytouna TV
+http://htq.brasilia.me/iptv/ch9?code={YOUR_CODE}
+#EXTINF:-1,Zaytouna Hedaya
+http://htq.brasilia.me/iptv/ch478?code={YOUR_CODE}
+#EXTINF:-1,Insen TV
+http://htq.brasilia.me/iptv/ch745?code={YOUR_CODE}
+#EXTINF:-1,TT 1
+http://htq.brasilia.me/iptv/ch734?code={YOUR_CODE}
+#EXTINF:-1,Jawhara FM
+http://htq.brasilia.me/iptv/ch800?code={YOUR_CODE}
+#EXTINF:-1,Mosaique FM
+http://htq.brasilia.me/iptv/ch802?code={YOUR_CODE}
+#EXTINF:-1 group-title="Algeria",Samira TV
+http://htp.brasilia.me/iptv/ch194?code={YOUR_CODE}
+#EXTINF:-1,CHOUROUK TV
+http://htp.brasilia.me/iptv/ch719?code={YOUR_CODE}
+#EXTINF:-1,Chourouk News
+http://htp.brasilia.me/iptv/ch754?code={YOUR_CODE}
+#EXTINF:-1,El Bilad TV
+http://htq.brasilia.me/iptv/ch795?code={YOUR_CODE}
+#EXTINF:-1,Chourouk Benna
+http://htq.brasilia.me/iptv/ch726?code={YOUR_CODE}
+#EXTINF:-1,Ennahar Algerie
+http://htp.brasilia.me/iptv/ch724?code={YOUR_CODE}
+#EXTINF:-1,Programme National
+http://htp.brasilia.me/iptv/ch1014?code={YOUR_CODE}
+#EXTINF:-1,Canal ALGERIE 1
+http://htp.brasilia.me/iptv/ch60?code={YOUR_CODE}
+#EXTINF:-1,KBC
+http://htp.brasilia.me/iptv/ch791?code={YOUR_CODE}
+#EXTINF:-1,Canal 3
+http://htp.brasilia.me/iptv/ch137?code={YOUR_CODE}
+#EXTINF:-1,Dzaier News
+http://htq.brasilia.me/iptv/ch156?code={YOUR_CODE}
+#EXTINF:-1,Dzaier TV
+http://htq.brasilia.me/iptv/ch157?code={YOUR_CODE}
+#EXTINF:-1,TV Tamazight Alger
+http://htq.brasilia.me/iptv/ch735?code={YOUR_CODE}
+#EXTINF:-1,Beur TV
+http://htq.brasilia.me/iptv/ch161?code={YOUR_CODE}
+#EXTINF:-1,Haddef Algerie
+http://htp.brasilia.me/iptv/ch191?code={YOUR_CODE}
+#EXTINF:-1,Al Jazairya TV
+http://htq.brasilia.me/iptv/ch496?code={YOUR_CODE}
+#EXTINF:-1,Al Magharibia
+http://htq.brasilia.me/iptv/ch172?code={YOUR_CODE}
+#EXTINF:-1,Al Magharibia 2
+http://htq.brasilia.me/iptv/ch780?code={YOUR_CODE}
+#EXTINF:-1,Berbere Music
+http://htq.brasilia.me/iptv/ch1011?code={YOUR_CODE}
+#EXTINF:-1,Berbere TV
+http://htq.brasilia.me/iptv/ch1012?code={YOUR_CODE}
+#EXTINF:-1,Berbere jeunesse
+http://htq.brasilia.me/iptv/ch1010?code={YOUR_CODE}
+#EXTINF:-1,Numidia TV
+http://htq.brasilia.me/iptv/ch474?code={YOUR_CODE}
+#EXTINF:-1,Al Fajr TV
+http://htq.brasilia.me/iptv/ch847?code={YOUR_CODE}
+#EXTINF:-1,Bahia Tv
+http://htq.brasilia.me/iptv/ch700?code={YOUR_CODE}
+#EXTINF:-1 group-title="Marocco",Al Oula Laayoun
+http://htq.brasilia.me/iptv/ch611?code={YOUR_CODE}
+#EXTINF:-1,Oula Maroc HD
+http://htp.brasilia.me/iptv/ch729?code={YOUR_CODE}
+#EXTINF:-1,2M Maroc
+http://htp.brasilia.me/iptv/ch121?code={YOUR_CODE}
+#EXTINF:-1,Medi1
+http://htp.brasilia.me/iptv/ch166?code={YOUR_CODE}
+#EXTINF:-1,Arrabiaa
+http://htq.brasilia.me/iptv/ch761?code={YOUR_CODE}
+#EXTINF:-1,Arriadhia
+http://htp.brasilia.me/iptv/ch733?code={YOUR_CODE}
+#EXTINF:-1,Assadissa
+http://htq.brasilia.me/iptv/ch147?code={YOUR_CODE}
+#EXTINF:-1,Al Maghribia
+http://htp.brasilia.me/iptv/ch56?code={YOUR_CODE}
+#EXTINF:-1,Tamazight Maroc
+http://htq.brasilia.me/iptv/ch487?code={YOUR_CODE}
+#EXTINF:-1,BZAF TV
+http://htq.brasilia.me/iptv/ch849?code={YOUR_CODE}
+#EXTINF:-1 group-title="Other nilesat",MBC 1
+http://htp.brasilia.me/iptv/ch30?code={YOUR_CODE}
+#EXTINF:-1,MBC 2
+http://htp.brasilia.me/iptv/ch31?code={YOUR_CODE}
+#EXTINF:-1,MBC 3
+http://htp.brasilia.me/iptv/ch32?code={YOUR_CODE}
+#EXTINF:-1,MBC 4
+http://htp.brasilia.me/iptv/ch33?code={YOUR_CODE}
+#EXTINF:-1,MBC ACTION
+http://htp.brasilia.me/iptv/ch34?code={YOUR_CODE}
+#EXTINF:-1,MBC BOLLYOOD
+http://htp.brasilia.me/iptv/ch35?code={YOUR_CODE}
+#EXTINF:-1,MBC DRAMA
+http://htp.brasilia.me/iptv/ch36?code={YOUR_CODE}
+#EXTINF:-1,MBC MAX
+http://htp.brasilia.me/iptv/ch38?code={YOUR_CODE}
+#EXTINF:-1,MBC MASR
+http://htp.brasilia.me/iptv/ch37?code={YOUR_CODE}
+#EXTINF:-1,MBC Masr 2
+http://htp.brasilia.me/iptv/ch480?code={YOUR_CODE}
+#EXTINF:-1,Rotana Cinema
+http://htq.brasilia.me/iptv/ch45?code={YOUR_CODE}
+#EXTINF:-1,Rotana Masria
+http://htq.brasilia.me/iptv/ch42?code={YOUR_CODE}
+#EXTINF:-1,Rotana Classic
+http://htp.brasilia.me/iptv/ch44?code={YOUR_CODE}
+#EXTINF:-1,Rotana Music
+http://htp.brasilia.me/iptv/ch43?code={YOUR_CODE}
+#EXTINF:-1,Rotana Clip
+http://htq.brasilia.me/iptv/ch190?code={YOUR_CODE}
+#EXTINF:-1,CBC
+http://htp.brasilia.me/iptv/ch23?code={YOUR_CODE}
+#EXTINF:-1,CBC 2
+http://htp.brasilia.me/iptv/ch767?code={YOUR_CODE}
+#EXTINF:-1,CBC Sofra
+http://htp.brasilia.me/iptv/ch760?code={YOUR_CODE}
+#EXTINF:-1,CBC EXTRA
+http://htp.brasilia.me/iptv/ch782?code={YOUR_CODE}
+#EXTINF:-1,CBC Drama
+http://htp.brasilia.me/iptv/ch22?code={YOUR_CODE}
+#EXTINF:-1,MTV Lebanon
+http://htp.brasilia.me/iptv/ch163?code={YOUR_CODE}
+#EXTINF:-1,AD Oula
+http://htq.brasilia.me/iptv/ch55?code={YOUR_CODE}
+#EXTINF:-1,ART Aflem 1
+http://htp.brasilia.me/iptv/ch40?code={YOUR_CODE}
+#EXTINF:-1,ART Aflem 2
+http://htq.brasilia.me/iptv/ch41?code={YOUR_CODE}
+#EXTINF:-1,ART Cinema
+http://htp.brasilia.me/iptv/ch602?code={YOUR_CODE}
+#EXTINF:-1,ART Hekayat
+http://htp.brasilia.me/iptv/ch758?code={YOUR_CODE}
+#EXTINF:-1,ART Hekayat 2
+http://htp.brasilia.me/iptv/ch759?code={YOUR_CODE}
+#EXTINF:-1,Abu Dhabi Drama
+http://htq.brasilia.me/iptv/ch54?code={YOUR_CODE}
+#EXTINF:-1,Abou Dhabi Emarat
+http://htq.brasilia.me/iptv/ch123?code={YOUR_CODE}
+#EXTINF:-1,Dubai One
+http://htq.brasilia.me/iptv/ch153?code={YOUR_CODE}
+#EXTINF:-1,Nour Dubai
+http://htq.brasilia.me/iptv/ch184?code={YOUR_CODE}
+#EXTINF:-1,Dubai TV
+http://htq.brasilia.me/iptv/ch25?code={YOUR_CODE}
+#EXTINF:-1,Sama Dubai
+http://htq.brasilia.me/iptv/ch193?code={YOUR_CODE}
+#EXTINF:-1,Nat Geo AD
+http://htp.brasilia.me/iptv/ch75?code={YOUR_CODE}
+#EXTINF:-1,Nile TV
+http://htq.brasilia.me/iptv/ch181?code={YOUR_CODE}
+#EXTINF:-1,Nile Cinema
+http://htq.brasilia.me/iptv/ch180?code={YOUR_CODE}
+#EXTINF:-1,Nile Drama
+http://htq.brasilia.me/iptv/ch69?code={YOUR_CODE}
+#EXTINF:-1,Nile Culture
+http://htq.brasilia.me/iptv/ch185?code={YOUR_CODE}
+#EXTINF:-1,Nile Comedy
+http://htq.brasilia.me/iptv/ch68?code={YOUR_CODE}
+#EXTINF:-1,Nile Family
+http://htq.brasilia.me/iptv/ch70?code={YOUR_CODE}
+#EXTINF:-1,Nile Life
+http://htq.brasilia.me/iptv/ch781?code={YOUR_CODE}
+#EXTINF:-1,Hayat Mousalsalet
+http://htp.brasilia.me/iptv/ch21?code={YOUR_CODE}
+#EXTINF:-1,LBC
+http://htp.brasilia.me/iptv/ch28?code={YOUR_CODE}
+#EXTINF:-1,SeeVii Drama
+http://htq.brasilia.me/iptv/ch24?code={YOUR_CODE}
+#EXTINF:-1,SeeVii Premier
+http://htq.brasilia.me/iptv/ch621?code={YOUR_CODE}
+#EXTINF:-1,SeeVii Beelink
+http://htq.brasilia.me/iptv/ch620?code={YOUR_CODE}
+#EXTINF:-1,SeeVii T
+http://htq.brasilia.me/iptv/ch622?code={YOUR_CODE}
+#EXTINF:-1,SeeVii K
+http://htq.brasilia.me/iptv/ch623?code={YOUR_CODE}
+#EXTINF:-1,Dream 2
+http://htq.brasilia.me/iptv/ch714?code={YOUR_CODE}
+#EXTINF:-1,Fatafeat
+http://htq.brasilia.me/iptv/ch26?code={YOUR_CODE}
+#EXTINF:-1,Al Hayat
+http://htq.brasilia.me/iptv/ch138?code={YOUR_CODE}
+#EXTINF:-1,Al Hayat 2
+http://htp.brasilia.me/iptv/ch777?code={YOUR_CODE}
+#EXTINF:-1,Time Comedy
+http://htq.brasilia.me/iptv/ch47?code={YOUR_CODE}
+#EXTINF:-1,Zee Alwen
+http://htq.brasilia.me/iptv/ch48?code={YOUR_CODE}
+#EXTINF:-1,Cairo Cinema
+http://htq.brasilia.me/iptv/ch63?code={YOUR_CODE}
+#EXTINF:-1,Cairo Drama
+http://htq.brasilia.me/iptv/ch64?code={YOUR_CODE}
+#EXTINF:-1,Cimaa
+http://htq.brasilia.me/iptv/ch66?code={YOUR_CODE}
+#EXTINF:-1,I-film
+http://htq.brasilia.me/iptv/ch492?code={YOUR_CODE}
+#EXTINF:-1,Athania Masr
+http://htq.brasilia.me/iptv/ch67?code={YOUR_CODE}
+#EXTINF:-1,Syria Drama
+http://htq.brasilia.me/iptv/ch71?code={YOUR_CODE}
+#EXTINF:-1,Zee Aflem
+http://htp.brasilia.me/iptv/ch74?code={YOUR_CODE}
+#EXTINF:-1,Zee Living
+http://htq.brasilia.me/iptv/ch450?code={YOUR_CODE}
+#EXTINF:-1,LDC Lebanon
+http://htq.brasilia.me/iptv/ch170?code={YOUR_CODE}
+#EXTINF:-1,Annahar TV
+http://htq.brasilia.me/iptv/ch772?code={YOUR_CODE}
+#EXTINF:-1,Annahar Laki
+http://htq.brasilia.me/iptv/ch721?code={YOUR_CODE}
+#EXTINF:-1,Nahar Nour
+http://htq.brasilia.me/iptv/ch453?code={YOUR_CODE}
+#EXTINF:-1,Nahar 2
+http://htq.brasilia.me/iptv/ch765?code={YOUR_CODE}
+#EXTINF:-1,Nahar Drama
+http://htq.brasilia.me/iptv/ch59?code={YOUR_CODE}
+#EXTINF:-1,Nahar Cinema
+http://htq.brasilia.me/iptv/ch625?code={YOUR_CODE}
+#EXTINF:-1,Nahar Al Yaoum
+http://htq.brasilia.me/iptv/ch752?code={YOUR_CODE}
+#EXTINF:-1,Syria Sat
+http://htq.brasilia.me/iptv/ch197?code={YOUR_CODE}
+#EXTINF:-1,Heya TV
+http://htq.brasilia.me/iptv/ch463?code={YOUR_CODE}
+#EXTINF:-1,Future TV
+http://htq.brasilia.me/iptv/ch705?code={YOUR_CODE}
+#EXTINF:-1,JSC Documentaire
+http://htq.brasilia.me/iptv/ch76?code={YOUR_CODE}
+#EXTINF:-1,Al Eskandaria TV
+http://htq.brasilia.me/iptv/ch127?code={YOUR_CODE}
+#EXTINF:-1,Soumaria
+http://htq.brasilia.me/iptv/ch130?code={YOUR_CODE}
+#EXTINF:-1,Al Mayadeen
+http://htq.brasilia.me/iptv/ch132?code={YOUR_CODE}
+#EXTINF:-1,Al Hurra Tv
+http://htq.brasilia.me/iptv/ch135?code={YOUR_CODE}
+#EXTINF:-1,Assalamou alayk TV
+http://htq.brasilia.me/iptv/ch139?code={YOUR_CODE}
+#EXTINF:-1,Al Assema TV
+http://htq.brasilia.me/iptv/ch140?code={YOUR_CODE}
+#EXTINF:-1,Al Assema 2 Tv
+http://htq.brasilia.me/iptv/ch814?code={YOUR_CODE}
+#EXTINF:-1,Arraed TV
+http://htq.brasilia.me/iptv/ch840?code={YOUR_CODE}
+#EXTINF:-1,Mehwar
+http://htq.brasilia.me/iptv/ch175?code={YOUR_CODE}
+#EXTINF:-1,ANB
+http://htq.brasilia.me/iptv/ch177?code={YOUR_CODE}
+#EXTINF:-1,NBN
+http://htq.brasilia.me/iptv/ch178?code={YOUR_CODE}
+#EXTINF:-1,Roya TV
+http://htq.brasilia.me/iptv/ch797?code={YOUR_CODE}
+#EXTINF:-1,O-TV
+http://htq.brasilia.me/iptv/ch186?code={YOUR_CODE}
+#EXTINF:-1,ON-TV
+http://htq.brasilia.me/iptv/ch187?code={YOUR_CODE}
+#EXTINF:-1,ON-Tv Plus
+http://htq.brasilia.me/iptv/ch129?code={YOUR_CODE}
+#EXTINF:-1,ON-Tv Live
+http://htq.brasilia.me/iptv/ch746?code={YOUR_CODE}
+#EXTINF:-1,Panorama Film
+http://htq.brasilia.me/iptv/ch189?code={YOUR_CODE}
+#EXTINF:-1,TV5 Monde
+http://htq.brasilia.me/iptv/ch192?code={YOUR_CODE}
+#EXTINF:-1,Star Cinema 1
+http://htq.brasilia.me/iptv/ch196?code={YOUR_CODE}
+#EXTINF:-1,Faraeen TV
+http://htq.brasilia.me/iptv/ch133?code={YOUR_CODE}
+#EXTINF:-1,Maan Tv
+http://htq.brasilia.me/iptv/ch1031?code={YOUR_CODE}
+#EXTINF:-1,Balkis TV
+http://htq.brasilia.me/iptv/ch443?code={YOUR_CODE}
+#EXTINF:-1,Al Masriya
+http://htq.brasilia.me/iptv/ch479?code={YOUR_CODE}
+#EXTINF:-1,Qatar TV
+http://htq.brasilia.me/iptv/ch195?code={YOUR_CODE}
+#EXTINF:-1,Al Jadeed TV
+http://htq.brasilia.me/iptv/ch785?code={YOUR_CODE}
+#EXTINF:-1,Noon TV
+http://htq.brasilia.me/iptv/ch482?code={YOUR_CODE}
+#EXTINF:-1,Lana TV
+http://htq.brasilia.me/iptv/ch820?code={YOUR_CODE}
+#EXTINF:-1,Al Oula Masr
+http://htq.brasilia.me/iptv/ch483?code={YOUR_CODE}
+#EXTINF:-1,Darbaka Aflem
+http://htq.brasilia.me/iptv/ch173?code={YOUR_CODE}
+#EXTINF:-1,4 Shabeb TV
+http://htq.brasilia.me/iptv/ch481?code={YOUR_CODE}
+#EXTINF:-1,Anbar TV
+http://htq.brasilia.me/iptv/ch488?code={YOUR_CODE}
+#EXTINF:-1,Al Hadath
+http://htq.brasilia.me/iptv/ch491?code={YOUR_CODE}
+#EXTINF:-1,Iraquiya TV
+http://htq.brasilia.me/iptv/ch494?code={YOUR_CODE}
+#EXTINF:-1,Beladi
+http://htq.brasilia.me/iptv/ch495?code={YOUR_CODE}
+#EXTINF:-1,Fourat TV
+http://htq.brasilia.me/iptv/ch72?code={YOUR_CODE}
+#EXTINF:-1,Moga Comedy
+http://htq.brasilia.me/iptv/ch725?code={YOUR_CODE}
+#EXTINF:-1,Sama
+http://htq.brasilia.me/iptv/ch198?code={YOUR_CODE}
+#EXTINF:-1,Al Rai TV
+http://htq.brasilia.me/iptv/ch470?code={YOUR_CODE}
+#EXTINF:-1,Al Saeed TV
+http://htq.brasilia.me/iptv/ch769?code={YOUR_CODE}
+#EXTINF:-1,Al Kanal
+http://htq.brasilia.me/iptv/ch503?code={YOUR_CODE}
+#EXTINF:-1,Masriya Aflem
+http://htq.brasilia.me/iptv/ch701?code={YOUR_CODE}
+#EXTINF:-1,Time Cinema
+http://htq.brasilia.me/iptv/ch702?code={YOUR_CODE}
+#EXTINF:-1,Music Plus
+http://htq.brasilia.me/iptv/ch162?code={YOUR_CODE}
+#EXTINF:-1,Majestic Cinema
+http://htq.brasilia.me/iptv/ch708?code={YOUR_CODE}
+#EXTINF:-1,Al Kahera
+http://htq.brasilia.me/iptv/ch709?code={YOUR_CODE}
+#EXTINF:-1,Wanasah
+http://htq.brasilia.me/iptv/ch722?code={YOUR_CODE}
+#EXTINF:-1,Rak TV
+http://htq.brasilia.me/iptv/ch723?code={YOUR_CODE}
+#EXTINF:-1,Saoudi Thaquafia
+http://htq.brasilia.me/iptv/ch810?code={YOUR_CODE}
+#EXTINF:-1,Sanaa TV
+http://htq.brasilia.me/iptv/ch728?code={YOUR_CODE}
+#EXTINF:-1,Amaken Drama
+http://htq.brasilia.me/iptv/ch712?code={YOUR_CODE}
+#EXTINF:-1,Nada Tv
+http://htq.brasilia.me/iptv/ch818?code={YOUR_CODE}
+#EXTINF:-1,Safa Tv
+http://htq.brasilia.me/iptv/ch144?code={YOUR_CODE}
+#EXTINF:-1,Saudi 24
+http://htq.brasilia.me/iptv/ch703?code={YOUR_CODE}
+#EXTINF:-1,Panorama Food
+http://htq.brasilia.me/iptv/ch839?code={YOUR_CODE}
+#EXTINF:-1,Al Ghad Al Araby
+http://htq.brasilia.me/iptv/ch485?code={YOUR_CODE}
+#EXTINF:-1,Cima Alibaba
+http://htq.brasilia.me/iptv/ch706?code={YOUR_CODE}
+#EXTINF:-1,Cinema Pro
+http://htq.brasilia.me/iptv/ch764?code={YOUR_CODE}
+#EXTINF:-1,Akhbar Lybia 24
+http://htq.brasilia.me/iptv/ch477?code={YOUR_CODE}
+#EXTINF:-1,Al Mada TV
+http://htq.brasilia.me/iptv/ch845?code={YOUR_CODE}
+#EXTINF:-1,Star Cinema 2
+http://htq.brasilia.me/iptv/ch742?code={YOUR_CODE}
+#EXTINF:-1,Imagine Movies
+http://htq.brasilia.me/iptv/ch718?code={YOUR_CODE}
+#EXTINF:-1,Darbaka Cinema
+http://htq.brasilia.me/iptv/ch738?code={YOUR_CODE}
+#EXTINF:-1,B4U Plus
+http://htq.brasilia.me/iptv/ch763?code={YOUR_CODE}
+#EXTINF:-1,Ten
+http://htp.brasilia.me/iptv/ch2000?code={YOUR_CODE}
+#EXTINF:-1,B4U Aflem
+http://htq.brasilia.me/iptv/ch768?code={YOUR_CODE}
+#EXTINF:-1,Dhafra
+http://htq.brasilia.me/iptv/ch766?code={YOUR_CODE}
+#EXTINF:-1,Melody Classic
+http://htq.brasilia.me/iptv/ch770?code={YOUR_CODE}
+#EXTINF:-1,Dubai Zaman
+http://htq.brasilia.me/iptv/ch757?code={YOUR_CODE}
+#EXTINF:-1,Sada Al Balad Drama
+http://htq.brasilia.me/iptv/ch778?code={YOUR_CODE}
+#EXTINF:-1,Kahera Wa Ness
+http://htq.brasilia.me/iptv/ch790?code={YOUR_CODE}
+#EXTINF:-1,Kaher Wa Ness 2
+http://htq.brasilia.me/iptv/ch169?code={YOUR_CODE}
+#EXTINF:-1,Time Taxi
+http://htq.brasilia.me/iptv/ch1023?code={YOUR_CODE}
+#EXTINF:-1,Panorama Drama 2
+http://htq.brasilia.me/iptv/ch793?code={YOUR_CODE}
+#EXTINF:-1,Time Films
+http://htq.brasilia.me/iptv/ch1017?code={YOUR_CODE}
+#EXTINF:-1,Panorama Drama
+http://htq.brasilia.me/iptv/ch164?code={YOUR_CODE}
+#EXTINF:-1,Sada El Balad
+http://htq.brasilia.me/iptv/ch794?code={YOUR_CODE}
+#EXTINF:-1,Al Ettijah
+http://htq.brasilia.me/iptv/ch128?code={YOUR_CODE}
+#EXTINF:-1,Massaya TV
+http://htq.brasilia.me/iptv/ch444?code={YOUR_CODE}
+#EXTINF:-1,Sharqyia
+http://htq.brasilia.me/iptv/ch446?code={YOUR_CODE}
+#EXTINF:-1,Missrata
+http://htq.brasilia.me/iptv/ch452?code={YOUR_CODE}
+#EXTINF:-1,Al Delta TV
+http://htq.brasilia.me/iptv/ch457?code={YOUR_CODE}
+#EXTINF:-1,sense TV
+http://htq.brasilia.me/iptv/ch458?code={YOUR_CODE}
+#EXTINF:-1,Al Fath
+http://htq.brasilia.me/iptv/ch461?code={YOUR_CODE}
+#EXTINF:-1,Hawacom TV
+http://htq.brasilia.me/iptv/ch462?code={YOUR_CODE}
+#EXTINF:-1,Josat Tv
+http://htq.brasilia.me/iptv/ch732?code={YOUR_CODE}
+#EXTINF:-1,Saiida TV
+http://htq.brasilia.me/iptv/ch464?code={YOUR_CODE}
+#EXTINF:-1,Baghdada Tv
+http://htq.brasilia.me/iptv/ch628?code={YOUR_CODE}
+#EXTINF:-1,Al Sahat
+http://htq.brasilia.me/iptv/ch627?code={YOUR_CODE}
+#EXTINF:-1,Al basra
+http://htq.brasilia.me/iptv/ch626?code={YOUR_CODE}
+#EXTINF:-1,Al Fayhaa
+http://htq.brasilia.me/iptv/ch466?code={YOUR_CODE}
+#EXTINF:-1,LTC TV
+http://htq.brasilia.me/iptv/ch468?code={YOUR_CODE}
+#EXTINF:-1,Al Aqsa
+http://htq.brasilia.me/iptv/ch1751?code={YOUR_CODE}
+#EXTINF:-1,Palestine
+http://htq.brasilia.me/iptv/ch188?code={YOUR_CODE}
+#EXTINF:-1,Palastinian Tv
+http://htq.brasilia.me/iptv/ch435?code={YOUR_CODE}
+#EXTINF:-1,Palastine Today
+http://htq.brasilia.me/iptv/ch484?code={YOUR_CODE}
+#EXTINF:-1,Palastine Sport
+http://htq.brasilia.me/iptv/ch434?code={YOUR_CODE}
+#EXTINF:-1,Palastine News
+http://htq.brasilia.me/iptv/ch449?code={YOUR_CODE}
+#EXTINF:-1,Al falastiniah Tv
+http://htq.brasilia.me/iptv/ch448?code={YOUR_CODE}
+#EXTINF:-1,Annajah Tv
+http://htq.brasilia.me/iptv/ch447?code={YOUR_CODE}
+#EXTINF:-1,Musawa Tv
+http://htq.brasilia.me/iptv/ch454?code={YOUR_CODE}
+#EXTINF:-1,Awdah Tv
+http://htq.brasilia.me/iptv/ch455?code={YOUR_CODE}
+#EXTINF:-1,Palastine Live
+http://htq.brasilia.me/iptv/ch460?code={YOUR_CODE}
+#EXTINF:-1,Dardanile
+http://htq.brasilia.me/iptv/ch145?code={YOUR_CODE}
+#EXTINF:-1,Libya 1
+http://htq.brasilia.me/iptv/ch467?code={YOUR_CODE}
+#EXTINF:-1,Libya Al Ahrar
+http://htq.brasilia.me/iptv/ch476?code={YOUR_CODE}
+#EXTINF:-1,Libya TV
+http://htq.brasilia.me/iptv/ch499?code={YOUR_CODE}
+#EXTINF:-1 group-title="News",France 24
+http://htq.brasilia.me/iptv/ch159?code={YOUR_CODE}
+#EXTINF:-1,France 24 FR
+http://htq.brasilia.me/iptv/ch498?code={YOUR_CODE}
+#EXTINF:-1,France 24 EN
+http://htq.brasilia.me/iptv/ch786?code={YOUR_CODE}
+#EXTINF:-1,Al Masdar TV
+http://htq.brasilia.me/iptv/ch486?code={YOUR_CODE}
+#EXTINF:-1,Russia Al Yaoum
+http://htq.brasilia.me/iptv/ch15?code={YOUR_CODE}
+#EXTINF:-1,AL Arabiya
+http://htq.brasilia.me/iptv/ch53?code={YOUR_CODE}
+#EXTINF:-1,Al Araby TV
+http://htq.brasilia.me/iptv/ch855?code={YOUR_CODE}
+#EXTINF:-1,Euro News
+http://htq.brasilia.me/iptv/ch146?code={YOUR_CODE}
+#EXTINF:-1,Aljazeera
+http://htp.brasilia.me/iptv/ch142?code={YOUR_CODE}
+#EXTINF:-1,Sky News Arabia
+http://htq.brasilia.me/iptv/ch150?code={YOUR_CODE}
+#EXTINF:-1,CNBC Arabia
+http://htq.brasilia.me/iptv/ch151?code={YOUR_CODE}
+#EXTINF:-1,Al Manar
+http://htq.brasilia.me/iptv/ch58?code={YOUR_CODE}
+#EXTINF:-1,Aljazeera Moubasher
+http://htq.brasilia.me/iptv/ch755?code={YOUR_CODE}
+#EXTINF:-1,JSC America
+http://htq.brasilia.me/iptv/ch775?code={YOUR_CODE}
+#EXTINF:-1,JSC English
+http://htq.brasilia.me/iptv/ch779?code={YOUR_CODE}
+#EXTINF:-1,DW-TV
+http://htq.brasilia.me/iptv/ch789?code={YOUR_CODE}
+#EXTINF:-1,Al Ekhbarya essouria
+http://htq.brasilia.me/iptv/ch441?code={YOUR_CODE}
+#EXTINF:-1,Al Shahed Tv
+http://htq.brasilia.me/iptv/ch489?code={YOUR_CODE}
+#EXTINF:-1,Al Arabya Hadath
+http://htq.brasilia.me/iptv/ch784?code={YOUR_CODE}
+#EXTINF:-1,Al Alam TV
+http://htq.brasilia.me/iptv/ch504?code={YOUR_CODE}
+#EXTINF:-1,Alaan
+http://htq.brasilia.me/iptv/ch136?code={YOUR_CODE}
+#EXTINF:-1,ANN
+http://htq.brasilia.me/iptv/ch52?code={YOUR_CODE}
+#EXTINF:-1,BBC WORLD ARABIC
+http://htq.brasilia.me/iptv/ch148?code={YOUR_CODE}
+#EXTINF:-1,Nile news
+http://htq.brasilia.me/iptv/ch182?code={YOUR_CODE}
+#EXTINF:-1,Iraqiya News
+http://htq.brasilia.me/iptv/ch141?code={YOUR_CODE}
+#EXTINF:-1,Saoudi  Ekhbarya
+http://htq.brasilia.me/iptv/ch493?code={YOUR_CODE}
+#EXTINF:-1 group-title="Sport",Gear One
+http://htq.brasilia.me/iptv/ch753?code={YOUR_CODE}
+#EXTINF:-1,Nile Sport
+http://htq.brasilia.me/iptv/ch183?code={YOUR_CODE}
+#EXTINF:-1,Kuwait Sport
+http://htq.brasilia.me/iptv/ch792?code={YOUR_CODE}
+#EXTINF:-1,Al Kaas 2
+http://htq.brasilia.me/iptv/ch442?code={YOUR_CODE}
+#EXTINF:-1,Al Kaas
+http://htp.brasilia.me/iptv/ch497?code={YOUR_CODE}
+#EXTINF:-1,AD Sport 1 HD
+http://htq.brasilia.me/iptv/ch122?code={YOUR_CODE}
+#EXTINF:-1,AD Sport 2 HD
+http://htq.brasilia.me/iptv/ch603?code={YOUR_CODE}
+#EXTINF:-1,Yas Sports
+http://htq.brasilia.me/iptv/ch629?code={YOUR_CODE}
+#EXTINF:-1,Ahly Channel
+http://htq.brasilia.me/iptv/ch783?code={YOUR_CODE}
+#EXTINF:-1,Nahar Sport
+http://htq.brasilia.me/iptv/ch179?code={YOUR_CODE}
+#EXTINF:-1,Dubai Sport 1
+http://htq.brasilia.me/iptv/ch154?code={YOUR_CODE}
+#EXTINF:-1,Dubai Sport 4
+http://htq.brasilia.me/iptv/ch155?code={YOUR_CODE}
+#EXTINF:-1,Saudie Sport
+http://htq.brasilia.me/iptv/ch747?code={YOUR_CODE}
+#EXTINF:-1,Al Iraqya Sport
+http://htq.brasilia.me/iptv/ch841?code={YOUR_CODE}
+#EXTINF:-1 group-title="Islamic",Al Rahma
+http://htq.brasilia.me/iptv/ch1015?code={YOUR_CODE}
+#EXTINF:-1,Mecca
+http://htq.brasilia.me/iptv/ch796?code={YOUR_CODE}
+#EXTINF:-1,Saudi 1
+http://htq.brasilia.me/iptv/ch167?code={YOUR_CODE}
+#EXTINF:-1,Saudi 2
+http://htq.brasilia.me/iptv/ch774?code={YOUR_CODE}
+#EXTINF:-1,Saudie Quran
+http://htq.brasilia.me/iptv/ch749?code={YOUR_CODE}
+#EXTINF:-1,Saudie Sunnah
+http://htq.brasilia.me/iptv/ch750?code={YOUR_CODE}
+#EXTINF:-1,Iqra
+http://htq.brasilia.me/iptv/ch165?code={YOUR_CODE}
+#EXTINF:-1,Iqraa Khaier
+http://htq.brasilia.me/iptv/ch771?code={YOUR_CODE}
+#EXTINF:-1,Bin Outhaimin Tv
+http://htq.brasilia.me/iptv/ch730?code={YOUR_CODE}
+#EXTINF:-1,Time Quran TV
+http://htq.brasilia.me/iptv/ch715?code={YOUR_CODE}
+#EXTINF:-1,Al Azhari TV
+http://htq.brasilia.me/iptv/ch756?code={YOUR_CODE}
+#EXTINF:-1,Resalat Al Islem
+http://htq.brasilia.me/iptv/ch134?code={YOUR_CODE}
+#EXTINF:-1,Ressala
+http://htq.brasilia.me/iptv/ch727?code={YOUR_CODE}
+#EXTINF:-1,Menhag Ennouboua
+http://htq.brasilia.me/iptv/ch473?code={YOUR_CODE}
+#EXTINF:-1,Alanis TV
+http://htq.brasilia.me/iptv/ch624?code={YOUR_CODE}
+#EXTINF:-1,Quran TV
+http://htq.brasilia.me/iptv/ch707?code={YOUR_CODE}
+#EXTINF:-1,Saudi Eqtisadia
+http://htq.brasilia.me/iptv/ch469?code={YOUR_CODE}
+#EXTINF:-1,Al Quds
+http://htq.brasilia.me/iptv/ch143?code={YOUR_CODE}
+#EXTINF:-1,CORAN TV
+http://htq.brasilia.me/iptv/ch152?code={YOUR_CODE}
+#EXTINF:-1,Ahl El Coran
+http://htq.brasilia.me/iptv/ch776?code={YOUR_CODE}
+#EXTINF:-1 group-title="Music",Aghanina
+http://htq.brasilia.me/iptv/ch124?code={YOUR_CODE}
+#EXTINF:-1,Aghanii
+http://htq.brasilia.me/iptv/ch751?code={YOUR_CODE}
+#EXTINF:-1,Music Haneen
+http://htq.brasilia.me/iptv/ch126?code={YOUR_CODE}
+#EXTINF:-1,FM TV
+http://htq.brasilia.me/iptv/ch787?code={YOUR_CODE}
+#EXTINF:-1,Funoon
+http://htq.brasilia.me/iptv/ch160?code={YOUR_CODE}
+#EXTINF:-1,Free Tv
+http://htq.brasilia.me/iptv/ch61?code={YOUR_CODE}
+#EXTINF:-1,Mazzika
+http://htq.brasilia.me/iptv/ch29?code={YOUR_CODE}
+#EXTINF:-1,Zina TV
+http://htq.brasilia.me/iptv/ch490?code={YOUR_CODE}
+#EXTINF:-1,Rotana Khaligia
+http://htq.brasilia.me/iptv/ch46?code={YOUR_CODE}
+#EXTINF:-1 group-title="Kids",Majed Kids TV
+http://htq.brasilia.me/iptv/ch1752?code={YOUR_CODE}
+#EXTINF:-1,Baynouna TV
+http://htq.brasilia.me/iptv/ch799?code={YOUR_CODE}
+#EXTINF:-1,Toyour Baby
+http://htq.brasilia.me/iptv/ch472?code={YOUR_CODE}
+#EXTINF:-1,Toyour Al Jannah
+http://htq.brasilia.me/iptv/ch73?code={YOUR_CODE}
+#EXTINF:-1,Jeem
+http://htq.brasilia.me/iptv/ch131?code={YOUR_CODE}
+#EXTINF:-1,Baraem
+http://htq.brasilia.me/iptv/ch50?code={YOUR_CODE}
+#EXTINF:-1,SpaceToon
+http://htq.brasilia.me/iptv/ch49?code={YOUR_CODE}
+#EXTINF:-1,Cartoon Network Arab
+http://htq.brasilia.me/iptv/ch65?code={YOUR_CODE}
+#EXTINF:-1,Mickey Channel
+http://htq.brasilia.me/iptv/ch788?code={YOUR_CODE}
+#EXTINF:-1,KOKY Kids
+http://htq.brasilia.me/iptv/ch736?code={YOUR_CODE}
+#EXTINF:-1,Mody Kids
+http://htq.brasilia.me/iptv/ch717?code={YOUR_CODE}
+#EXTINF:-1,Kidzania TV
+http://htq.brasilia.me/iptv/ch731?code={YOUR_CODE}
+#EXTINF:-1,Semsem TV
+http://htq.brasilia.me/iptv/ch445?code={YOUR_CODE}
+#EXTINF:-1,Karameesh
+http://htq.brasilia.me/iptv/ch199?code={YOUR_CODE}
+#EXTINF:-1,TAHA
+http://htq.brasilia.me/iptv/ch748?code={YOUR_CODE}
+#EXTINF:-1 group-title="BeInSport",Bein Movie 1
+http://htq.brasilia.me/iptv/ch520?code={YOUR_CODE}
+#EXTINF:-1,Bein Movie 2
+http://htq.brasilia.me/iptv/ch519?code={YOUR_CODE}
+#EXTINF:-1,Bein Movie 3
+http://htq.brasilia.me/iptv/ch518?code={YOUR_CODE}
+#EXTINF:-1,Bein Movie 4
+http://htq.brasilia.me/iptv/ch521?code={YOUR_CODE}
+#EXTINF:-1,Bein Sport
+http://htp.brasilia.me/iptv/ch400?code={YOUR_CODE}
+#EXTINF:-1,Bein Sports News
+http://htq.brasilia.me/iptv/ch110?code={YOUR_CODE}
+#EXTINF:-1,BeInSport 1 HD
+http://htp.brasilia.me/iptv/ch111?code={YOUR_CODE}
+#EXTINF:-1,BeInSport 2 HD
+http://htp.brasilia.me/iptv/ch112?code={YOUR_CODE}
+#EXTINF:-1,BeInSport 3 HD
+http://htp.brasilia.me/iptv/ch113?code={YOUR_CODE}
+#EXTINF:-1,BeInSport 4 HD
+http://htp.brasilia.me/iptv/ch114?code={YOUR_CODE}
+#EXTINF:-1,BeInSport 5 HD
+http://htp.brasilia.me/iptv/ch115?code={YOUR_CODE}
+#EXTINF:-1,BeInSport 6 HD
+http://htp.brasilia.me/iptv/ch116?code={YOUR_CODE}
+#EXTINF:-1,BeInSport 7 HD
+http://htp.brasilia.me/iptv/ch117?code={YOUR_CODE}
+#EXTINF:-1,BeInSport 8 HD
+http://htp.brasilia.me/iptv/ch118?code={YOUR_CODE}
+#EXTINF:-1,BeInSport 9 HD
+http://htp.brasilia.me/iptv/ch510?code={YOUR_CODE}
+#EXTINF:-1,BeInSport 10 HD
+http://htp.brasilia.me/iptv/ch511?code={YOUR_CODE}
+#EXTINF:-1,BeInSport 11 HD
+http://htp.brasilia.me/iptv/ch512?code={YOUR_CODE}
+#EXTINF:-1,BeInSport 12 HD
+http://htp.brasilia.me/iptv/ch513?code={YOUR_CODE}
+#EXTINF:-1,BeInSport 13 HD
+http://htp.brasilia.me/iptv/ch514?code={YOUR_CODE}
+#EXTINF:-1,BeInSport 14 HD
+http://htp.brasilia.me/iptv/ch515?code={YOUR_CODE}
+#EXTINF:-1,BeInSport 15 HD
+http://htp.brasilia.me/iptv/ch516?code={YOUR_CODE}
+#EXTINF:-1,BeInSport 16 HD
+http://htq.brasilia.me/iptv/ch517?code={YOUR_CODE}
+#EXTINF:-1,BeInSport 1 FR
+http://htp.brasilia.me/iptv/ch119?code={YOUR_CODE}
+#EXTINF:-1,BeInSport 2 FR
+http://htp.brasilia.me/iptv/ch120?code={YOUR_CODE}
+#EXTINF:-1,BeInSport 3 FR
+http://htp.brasilia.me/iptv/ch206?code={YOUR_CODE}
+#EXTINF:-1 tvg-name="Canal-fr" group-title="Canal sat",CANAL+
+http://htp.brasilia.me/iptv/ch200?code={YOUR_CODE}
+#EXTINF:-1,Canal+ Cinema
+http://htp.brasilia.me/iptv/ch201?code={YOUR_CODE}
+#EXTINF:-1,CANAL+ FAMILY
+http://htp.brasilia.me/iptv/ch204?code={YOUR_CODE}
+#EXTINF:-1,Canal+ Sport
+http://htp.brasilia.me/iptv/ch202?code={YOUR_CODE}
+#EXTINF:-1,Canal+ Decale
+http://htp.brasilia.me/iptv/ch203?code={YOUR_CODE}
+#EXTINF:-1,Canal+ series HD
+http://htp.brasilia.me/iptv/ch205?code={YOUR_CODE}
+#EXTINF:-1,OCS Choc
+http://htq.brasilia.me/iptv/ch226?code={YOUR_CODE}
+#EXTINF:-1,OCS City
+http://htq.brasilia.me/iptv/ch259?code={YOUR_CODE}
+#EXTINF:-1,Cine + Emotion
+http://htq.brasilia.me/iptv/ch741?code={YOUR_CODE}
+#EXTINF:-1,Cine Frisson
+http://htp.brasilia.me/iptv/ch270?code={YOUR_CODE}
+#EXTINF:-1,Cine Premiere
+http://htq.brasilia.me/iptv/ch275?code={YOUR_CODE}
+#EXTINF:-1,Paramount ch. FR
+http://htq.brasilia.me/iptv/ch1108?code={YOUR_CODE}
+#EXTINF:-1,Serie Club
+http://htq.brasilia.me/iptv/ch233?code={YOUR_CODE}
+#EXTINF:-1,Nina Tv
+http://htq.brasilia.me/iptv/ch1111?code={YOUR_CODE}
+#EXTINF:-1,13 eme Rue
+http://htp.brasilia.me/iptv/ch256?code={YOUR_CODE}
+#EXTINF:-1,TF1 HD
+http://htp.brasilia.me/iptv/ch207?code={YOUR_CODE}
+#EXTINF:-1,M6 HD
+http://htp.brasilia.me/iptv/ch208?code={YOUR_CODE}
+#EXTINF:-1,HD 1
+http://htq.brasilia.me/iptv/ch258?code={YOUR_CODE}
+#EXTINF:-1,6 Ter
+http://htq.brasilia.me/iptv/ch262?code={YOUR_CODE}
+#EXTINF:-1,France 2 HD
+http://htq.brasilia.me/iptv/ch209?code={YOUR_CODE}
+#EXTINF:-1,France 3 HD
+http://htq.brasilia.me/iptv/ch210?code={YOUR_CODE}
+#EXTINF:-1,France 4
+http://htq.brasilia.me/iptv/ch219?code={YOUR_CODE}
+#EXTINF:-1,France 5
+http://htq.brasilia.me/iptv/ch211?code={YOUR_CODE}
+#EXTINF:-1,France O
+http://htq.brasilia.me/iptv/ch212?code={YOUR_CODE}
+#EXTINF:-1,W9
+http://htp.brasilia.me/iptv/ch220?code={YOUR_CODE}
+#EXTINF:-1,RTL 9
+http://htq.brasilia.me/iptv/ch282?code={YOUR_CODE}
+#EXTINF:-1,AB 1
+http://htq.brasilia.me/iptv/ch284?code={YOUR_CODE}
+#EXTINF:-1,AB 3 FR
+http://htq.brasilia.me/iptv/ch291?code={YOUR_CODE}
+#EXTINF:-1,TEVA HD
+http://htq.brasilia.me/iptv/ch230?code={YOUR_CODE}
+#EXTINF:-1,Ushuaia TV HD
+http://htq.brasilia.me/iptv/ch242?code={YOUR_CODE}
+#EXTINF:-1,NAT GEO HD
+http://htq.brasilia.me/iptv/ch235?code={YOUR_CODE}
+#EXTINF:-1,NATGEO WILD HD
+http://htq.brasilia.me/iptv/ch238?code={YOUR_CODE}
+#EXTINF:-1,Planet+ HD
+http://htq.brasilia.me/iptv/ch234?code={YOUR_CODE}
+#EXTINF:-1,Planet+ AE HD
+http://htq.brasilia.me/iptv/ch225?code={YOUR_CODE}
+#EXTINF:-1,Voyage
+http://htq.brasilia.me/iptv/ch236?code={YOUR_CODE}
+#EXTINF:-1,Discovery Science HD
+http://htq.brasilia.me/iptv/ch229?code={YOUR_CODE}
+#EXTINF:-1,Discovery Show Case
+http://htq.brasilia.me/iptv/ch241?code={YOUR_CODE}
+#EXTINF:-1,RMC Decouverte
+http://htq.brasilia.me/iptv/ch739?code={YOUR_CODE}
+#EXTINF:-1,Histoire
+http://htq.brasilia.me/iptv/ch280?code={YOUR_CODE}
+#EXTINF:-1,Chasse et Peche
+http://htq.brasilia.me/iptv/ch283?code={YOUR_CODE}
+#EXTINF:-1,Trek
+http://htq.brasilia.me/iptv/ch279?code={YOUR_CODE}
+#EXTINF:-1,Sciences
+http://htq.brasilia.me/iptv/ch278?code={YOUR_CODE}
+#EXTINF:-1,Animaux
+http://htq.brasilia.me/iptv/ch277?code={YOUR_CODE}
+#EXTINF:-1,Comedie
+http://htq.brasilia.me/iptv/ch264?code={YOUR_CODE}
+#EXTINF:-1,Direct 8
+http://htq.brasilia.me/iptv/ch223?code={YOUR_CODE}
+#EXTINF:-1,NRJ 12
+http://htq.brasilia.me/iptv/ch214?code={YOUR_CODE}
+#EXTINF:-1,D 17
+http://htq.brasilia.me/iptv/ch228?code={YOUR_CODE}
+#EXTINF:-1,Equipe 21
+http://htq.brasilia.me/iptv/ch267?code={YOUR_CODE}
+#EXTINF:-1,Numero 23
+http://htq.brasilia.me/iptv/ch247?code={YOUR_CODE}
+#EXTINF:-1,Cherie 25
+http://htq.brasilia.me/iptv/ch248?code={YOUR_CODE}
+#EXTINF:-1,SYFY HD
+http://htq.brasilia.me/iptv/ch237?code={YOUR_CODE}
+#EXTINF:-1,NT 1
+http://htq.brasilia.me/iptv/ch213?code={YOUR_CODE}
+#EXTINF:-1,TMC
+http://htq.brasilia.me/iptv/ch217?code={YOUR_CODE}
+#EXTINF:-1,Paris Premiere
+http://htq.brasilia.me/iptv/ch274?code={YOUR_CODE}
+#EXTINF:-1,ARTE
+http://htq.brasilia.me/iptv/ch216?code={YOUR_CODE}
+#EXTINF:-1,I-Tele
+http://htp.brasilia.me/iptv/ch299?code={YOUR_CODE}
+#EXTINF:-1,LCI
+http://htp.brasilia.me/iptv/ch298?code={YOUR_CODE}
+#EXTINF:-1,BFM TV
+http://htp.brasilia.me/iptv/ch218?code={YOUR_CODE}
+#EXTINF:-1,BFM Business
+http://htq.brasilia.me/iptv/ch263?code={YOUR_CODE}
+#EXTINF:-1,LCP
+http://htq.brasilia.me/iptv/ch245?code={YOUR_CODE}
+#EXTINF:-1,MCM
+http://htq.brasilia.me/iptv/ch1107?code={YOUR_CODE}
+#EXTINF:-1,MTV FR
+http://htq.brasilia.me/iptv/ch224?code={YOUR_CODE}
+#EXTINF:-1,MTV Hits
+http://htq.brasilia.me/iptv/ch246?code={YOUR_CODE}
+#EXTINF:-1,Game one
+http://htq.brasilia.me/iptv/ch1106?code={YOUR_CODE}
+#EXTINF:-1,Manga
+http://htq.brasilia.me/iptv/ch281?code={YOUR_CODE}
+#EXTINF:-1,Disney XD FR
+http://htq.brasilia.me/iptv/ch239?code={YOUR_CODE}
+#EXTINF:-1,Cartoon Network
+http://htq.brasilia.me/iptv/ch240?code={YOUR_CODE}
+#EXTINF:-1,GULLI
+http://htq.brasilia.me/iptv/ch222?code={YOUR_CODE}
+#EXTINF:-1,Nikolodeon
+http://htq.brasilia.me/iptv/ch261?code={YOUR_CODE}
+#EXTINF:-1,Canal J
+http://htq.brasilia.me/iptv/ch260?code={YOUR_CODE}
+#EXTINF:-1,Teletoon
+http://htq.brasilia.me/iptv/ch276?code={YOUR_CODE}
+#EXTINF:-1,Disney Ch. FR
+http://htq.brasilia.me/iptv/ch265?code={YOUR_CODE}
+#EXTINF:-1,June
+http://htq.brasilia.me/iptv/ch273?code={YOUR_CODE}
+#EXTINF:-1,Disney Junior FR
+http://htq.brasilia.me/iptv/ch257?code={YOUR_CODE}
+#EXTINF:-1,Equidia Live
+http://htq.brasilia.me/iptv/ch269?code={YOUR_CODE}
+#EXTINF:-1,Equidia
+http://htq.brasilia.me/iptv/ch268?code={YOUR_CODE}
+#EXTINF:-1,Foot +
+http://htq.brasilia.me/iptv/ch920?code={YOUR_CODE}
+#EXTINF:-1,Golf Channel FR
+http://htq.brasilia.me/iptv/ch290?code={YOUR_CODE}
+#EXTINF:-1,EuroSport
+http://htq.brasilia.me/iptv/ch743?code={YOUR_CODE}
+#EXTINF:-1,EuroSport 2 HD
+http://htq.brasilia.me/iptv/ch744?code={YOUR_CODE}
+#EXTINF:-1 group-title="TSR Swiss",RTSI 2
+http://htq.brasilia.me/iptv/ch1345?code={YOUR_CODE}
+#EXTINF:-1,RTSI 1
+http://htq.brasilia.me/iptv/ch1344?code={YOUR_CODE}
+#EXTINF:-1,RTS 1 HD
+http://htq.brasilia.me/iptv/ch912?code={YOUR_CODE}
+#EXTINF:-1,RTS 2 HD
+http://htq.brasilia.me/iptv/ch913?code={YOUR_CODE}
+#EXTINF:-1,SRF 1 HD
+http://htq.brasilia.me/iptv/ch910?code={YOUR_CODE}
+#EXTINF:-1,SRF 2 HD
+http://htq.brasilia.me/iptv/ch911?code={YOUR_CODE}
+#EXTINF:-1 group-title="OSN",OSN ON DEMAND 1
+http://htq.brasilia.me/iptv/ch900?code={YOUR_CODE}
+#EXTINF:-1,OSN ON DEMAND 2
+http://htq.brasilia.me/iptv/ch901?code={YOUR_CODE}
+#EXTINF:-1,OSN ON DEMAND 3
+http://htq.brasilia.me/iptv/ch902?code={YOUR_CODE}
+#EXTINF:-1,OSN ON DEMAND 4
+http://htq.brasilia.me/iptv/ch903?code={YOUR_CODE}
+#EXTINF:-1,MBC Plus Drama
+http://htq.brasilia.me/iptv/ch502?code={YOUR_CODE}
+#EXTINF:-1,OSN YAHALA HD
+http://htq.brasilia.me/iptv/ch501?code={YOUR_CODE}
+#EXTINF:-1 group-title="SKY DE",Sky Sportnews DE
+http://htq.brasilia.me/iptv/ch1523?code={YOUR_CODE}
+#EXTINF:-1,SKY Sport 1 HD DE
+http://htq.brasilia.me/iptv/ch405?code={YOUR_CODE}
+#EXTINF:-1,Sky Sport 2 HD DE
+http://htq.brasilia.me/iptv/ch406?code={YOUR_CODE}
+#EXTINF:-1,Sky Bundesliga DE
+http://htq.brasilia.me/iptv/ch1521?code={YOUR_CODE}
+#EXTINF:-1,Sport1 DE
+http://htq.brasilia.me/iptv/ch1520?code={YOUR_CODE}
+#EXTINF:-1,EuroSport1 DE
+http://htq.brasilia.me/iptv/ch420?code={YOUR_CODE}
+#EXTINF:-1,Eurosport2 DE
+http://htq.brasilia.me/iptv/ch1519?code={YOUR_CODE}
+#EXTINF:-1,SKY ATLANTIC HD DE
+http://htq.brasilia.me/iptv/ch402?code={YOUR_CODE}
+#EXTINF:-1,SKY CINEMA HD DE
+http://htq.brasilia.me/iptv/ch401?code={YOUR_CODE}
+#EXTINF:-1,Sky Action DE
+http://htq.brasilia.me/iptv/ch411?code={YOUR_CODE}
+#EXTINF:-1,Sky Hits DE
+http://htq.brasilia.me/iptv/ch1516?code={YOUR_CODE}
+#EXTINF:-1,TNT Glitz DE
+http://htq.brasilia.me/iptv/ch1522?code={YOUR_CODE}
+#EXTINF:-1,TNT Series DE
+http://htq.brasilia.me/iptv/ch1518?code={YOUR_CODE}
+#EXTINF:-1,MGM DE
+http://htq.brasilia.me/iptv/ch1517?code={YOUR_CODE}
+#EXTINF:-1,NAT GEO WILD HD
+http://htq.brasilia.me/iptv/ch409?code={YOUR_CODE}
+#EXTINF:-1,Discovery HD
+http://htq.brasilia.me/iptv/ch410?code={YOUR_CODE}
+#EXTINF:-1,Nat. Geo DE
+http://htq.brasilia.me/iptv/ch408?code={YOUR_CODE}
+#EXTINF:-1,Syfy DE
+http://htq.brasilia.me/iptv/ch414?code={YOUR_CODE}
+#EXTINF:-1,Universal DE
+http://htq.brasilia.me/iptv/ch1511?code={YOUR_CODE}
+#EXTINF:-1,History DE
+http://htq.brasilia.me/iptv/ch1504?code={YOUR_CODE}
+#EXTINF:-1,Disney Cinemagic DE
+http://htq.brasilia.me/iptv/ch1501?code={YOUR_CODE}
+#EXTINF:-1,Disney Channel DE
+http://htq.brasilia.me/iptv/ch1500?code={YOUR_CODE}
+#EXTINF:-1,Disney Junior DE
+http://htq.brasilia.me/iptv/ch404?code={YOUR_CODE}
+#EXTINF:-1,KIKA
+http://htq.brasilia.me/iptv/ch421?code={YOUR_CODE}
+#EXTINF:-1,13 Street DE
+http://htq.brasilia.me/iptv/ch1515?code={YOUR_CODE}
+#EXTINF:-1,E. DE
+http://htq.brasilia.me/iptv/ch1513?code={YOUR_CODE}
+#EXTINF:-1,ZDF
+http://htq.brasilia.me/iptv/ch416?code={YOUR_CODE}
+#EXTINF:-1,ZDF Info
+http://htq.brasilia.me/iptv/ch417?code={YOUR_CODE}
+#EXTINF:-1,ZDF Kultur
+http://htq.brasilia.me/iptv/ch1506?code={YOUR_CODE}
+#EXTINF:-1,ZDF Neo
+http://htq.brasilia.me/iptv/ch1505?code={YOUR_CODE}
+#EXTINF:-1,PRO 7 Fun
+http://htq.brasilia.me/iptv/ch1512?code={YOUR_CODE}
+#EXTINF:-1,RTL DE
+http://htq.brasilia.me/iptv/ch418?code={YOUR_CODE}
+#EXTINF:-1,RTL 2
+http://htq.brasilia.me/iptv/ch419?code={YOUR_CODE}
+#EXTINF:-1,RTL Crime DE
+http://htq.brasilia.me/iptv/ch1503?code={YOUR_CODE}
+#EXTINF:-1,SAT 1
+http://htq.brasilia.me/iptv/ch1507?code={YOUR_CODE}
+#EXTINF:-1,Kabel 1
+http://htq.brasilia.me/iptv/ch1509?code={YOUR_CODE}
+#EXTINF:-1,SIXX
+http://htq.brasilia.me/iptv/ch1510?code={YOUR_CODE}
+#EXTINF:-1,PRO 7
+http://htq.brasilia.me/iptv/ch1508?code={YOUR_CODE}
+#EXTINF:-1,NTV DE
+http://htq.brasilia.me/iptv/ch1502?code={YOUR_CODE}
+#EXTINF:-1,3 Sat
+http://htq.brasilia.me/iptv/ch425?code={YOUR_CODE}
+#EXTINF:-1,VOX
+http://htq.brasilia.me/iptv/ch415?code={YOUR_CODE}
+#EXTINF:-1 group-title="SKY UK",BBC1
+http://htq.brasilia.me/iptv/ch1800?code={YOUR_CODE}
+#EXTINF:-1,BBC2
+http://htq.brasilia.me/iptv/ch1801?code={YOUR_CODE}
+#EXTINF:-1,CBBC
+http://htq.brasilia.me/iptv/ch1802?code={YOUR_CODE}
+#EXTINF:-1,BBC4
+http://htq.brasilia.me/iptv/ch1803?code={YOUR_CODE}
+#EXTINF:-1,SKY Sport 1 UK
+http://htq.brasilia.me/iptv/ch922?code={YOUR_CODE}
+#EXTINF:-1,Sky Sport 2 UK
+http://htq.brasilia.me/iptv/ch937?code={YOUR_CODE}
+#EXTINF:-1,SKY Sport 3 UK
+http://htq.brasilia.me/iptv/ch914?code={YOUR_CODE}
+#EXTINF:-1,SKY Sport 4 UK
+http://htq.brasilia.me/iptv/ch915?code={YOUR_CODE}
+#EXTINF:-1,SKY Sport 5 UK
+http://htq.brasilia.me/iptv/ch916?code={YOUR_CODE}
+#EXTINF:-1,Sony Movies UK
+http://htq.brasilia.me/iptv/ch1700?code={YOUR_CODE}
+#EXTINF:-1,Sky Family UK
+http://htq.brasilia.me/iptv/ch924?code={YOUR_CODE}
+#EXTINF:-1,Sky Comedy UK
+http://htq.brasilia.me/iptv/ch919?code={YOUR_CODE}
+#EXTINF:-1,Sky Action UK
+http://htq.brasilia.me/iptv/ch917?code={YOUR_CODE}
+#EXTINF:-1,Sky Select UK
+http://htq.brasilia.me/iptv/ch909?code={YOUR_CODE}
+#EXTINF:-1,Sky Horror UK
+http://htq.brasilia.me/iptv/ch908?code={YOUR_CODE}
+#EXTINF:-1,Sky Premiere UK
+http://htq.brasilia.me/iptv/ch907?code={YOUR_CODE}
+#EXTINF:-1,Sky Living UK
+http://htq.brasilia.me/iptv/ch925?code={YOUR_CODE}
+#EXTINF:-1,Sky Animal UK
+http://htq.brasilia.me/iptv/ch906?code={YOUR_CODE}
+#EXTINF:-1,Discovery Science UK
+http://htq.brasilia.me/iptv/ch923?code={YOUR_CODE}
+#EXTINF:-1,Discovery Showcase U
+http://htq.brasilia.me/iptv/ch918?code={YOUR_CODE}
+#EXTINF:-1,Discovery History UK
+http://htq.brasilia.me/iptv/ch934?code={YOUR_CODE}
+#EXTINF:-1,Disney Junior UK
+http://htq.brasilia.me/iptv/ch936?code={YOUR_CODE}
+#EXTINF:-1,Sky Disney UK
+http://htq.brasilia.me/iptv/ch958?code={YOUR_CODE}
+#EXTINF:-1,Disney XD UK
+http://htq.brasilia.me/iptv/ch1820?code={YOUR_CODE}
+#EXTINF:-1,Disney Channel UK
+http://htq.brasilia.me/iptv/ch957?code={YOUR_CODE}
+#EXTINF:-1,ITV BE
+http://htq.brasilia.me/iptv/ch1804?code={YOUR_CODE}
+#EXTINF:-1,ITV 1
+http://htq.brasilia.me/iptv/ch1805?code={YOUR_CODE}
+#EXTINF:-1,ITV 2
+http://htq.brasilia.me/iptv/ch1806?code={YOUR_CODE}
+#EXTINF:-1,C ITV
+http://htq.brasilia.me/iptv/ch1807?code={YOUR_CODE}
+#EXTINF:-1,ITV 4
+http://htq.brasilia.me/iptv/ch1808?code={YOUR_CODE}
+#EXTINF:-1,Fox UK
+http://htq.brasilia.me/iptv/ch905?code={YOUR_CODE}
+#EXTINF:-1,TLC UK
+http://htq.brasilia.me/iptv/ch956?code={YOUR_CODE}
+#EXTINF:-1,SKY One UK
+http://htq.brasilia.me/iptv/ch1809?code={YOUR_CODE}
+#EXTINF:-1,SKY two UK
+http://htq.brasilia.me/iptv/ch1810?code={YOUR_CODE}
+#EXTINF:-1,Fo TV UK
+http://htq.brasilia.me/iptv/ch1821?code={YOUR_CODE}
+#EXTINF:-1,Horse and Country UK
+http://htq.brasilia.me/iptv/ch1822?code={YOUR_CODE}
+#EXTINF:-1,Travel Ch. UK
+http://htq.brasilia.me/iptv/ch1823?code={YOUR_CODE}
+#EXTINF:-1,Tru TV UK
+http://htq.brasilia.me/iptv/ch1824?code={YOUR_CODE}
+#EXTINF:-1,Discovery Ch. UK
+http://htq.brasilia.me/iptv/ch1825?code={YOUR_CODE}
+#EXTINF:-1,CNBC UK
+http://htq.brasilia.me/iptv/ch1826?code={YOUR_CODE}
+#EXTINF:-1,S4cdigidol
+http://htq.brasilia.me/iptv/ch1827?code={YOUR_CODE}
+#EXTINF:-1,BT Sport 1
+http://htq.brasilia.me/iptv/ch1828?code={YOUR_CODE}
+#EXTINF:-1,BT Sport 2
+http://htq.brasilia.me/iptv/ch1829?code={YOUR_CODE}
+#EXTINF:-1,BT Sport Extra
+http://htq.brasilia.me/iptv/ch1830?code={YOUR_CODE}
+#EXTINF:-1,BT Sport Europe
+http://htq.brasilia.me/iptv/ch1831?code={YOUR_CODE}
+#EXTINF:-1,Setana Sport 1
+http://htq.brasilia.me/iptv/ch1832?code={YOUR_CODE}
+#EXTINF:-1,ESPN
+http://htq.brasilia.me/iptv/ch1833?code={YOUR_CODE}
+#EXTINF:-1,Premiere Sport UK
+http://htq.brasilia.me/iptv/ch1834?code={YOUR_CODE}
+#EXTINF:-1,CBS Reality
+http://htq.brasilia.me/iptv/ch1835?code={YOUR_CODE}
+#EXTINF:-1,CBS Action
+http://htq.brasilia.me/iptv/ch1836?code={YOUR_CODE}
+#EXTINF:-1,CBS Drama
+http://htq.brasilia.me/iptv/ch1837?code={YOUR_CODE}
+#EXTINF:-1,Horror Ch. UK
+http://htq.brasilia.me/iptv/ch1839?code={YOUR_CODE}
+#EXTINF:-1,ABN UK
+http://htq.brasilia.me/iptv/ch1840?code={YOUR_CODE}
+#EXTINF:-1,Channels 24
+http://htq.brasilia.me/iptv/ch1841?code={YOUR_CODE}
+#EXTINF:-1,Irish TV
+http://htq.brasilia.me/iptv/ch1842?code={YOUR_CODE}
+#EXTINF:-1,Now Music
+http://htq.brasilia.me/iptv/ch1843?code={YOUR_CODE}
+#EXTINF:-1,Movies4Men
+http://htq.brasilia.me/iptv/ch1845?code={YOUR_CODE}
+#EXTINF:-1,Setana UK
+http://htq.brasilia.me/iptv/ch1846?code={YOUR_CODE}
+#EXTINF:-1,Channel S
+http://htq.brasilia.me/iptv/ch1847?code={YOUR_CODE}
+#EXTINF:-1 group-title="SKY IT",Rai 1 IT
+http://htq.brasilia.me/iptv/ch1316?code={YOUR_CODE}
+#EXTINF:-1,Rai 2 IT
+http://htq.brasilia.me/iptv/ch1317?code={YOUR_CODE}
+#EXTINF:-1,Rai 3 IT
+http://htq.brasilia.me/iptv/ch1318?code={YOUR_CODE}
+#EXTINF:-1,Rai 4 IT
+http://htq.brasilia.me/iptv/ch1332?code={YOUR_CODE}
+#EXTINF:-1,RAI 5 IT
+http://htq.brasilia.me/iptv/ch1903?code={YOUR_CODE}
+#EXTINF:-1,Rai News IT
+http://htq.brasilia.me/iptv/ch1310?code={YOUR_CODE}
+#EXTINF:-1,Rai Movie IT
+http://htq.brasilia.me/iptv/ch1331?code={YOUR_CODE}
+#EXTINF:-1,Rai Sport 1 IT
+http://htq.brasilia.me/iptv/ch1315?code={YOUR_CODE}
+#EXTINF:-1,Rai Sport 2 IT
+http://htq.brasilia.me/iptv/ch1336?code={YOUR_CODE}
+#EXTINF:-1,Rai Premium IT
+http://htq.brasilia.me/iptv/ch1337?code={YOUR_CODE}
+#EXTINF:-1,RAI Yoyo IT
+http://htq.brasilia.me/iptv/ch1904?code={YOUR_CODE}
+#EXTINF:-1,Rai Storia IT
+http://htq.brasilia.me/iptv/ch1338?code={YOUR_CODE}
+#EXTINF:-1,Rete 4 IT
+http://htq.brasilia.me/iptv/ch1313?code={YOUR_CODE}
+#EXTINF:-1,Rai Gulp IT
+http://htq.brasilia.me/iptv/ch1339?code={YOUR_CODE}
+#EXTINF:-1,Canal 5 IT
+http://htq.brasilia.me/iptv/ch1309?code={YOUR_CODE}
+#EXTINF:-1,La 5 IT
+http://htq.brasilia.me/iptv/ch1311?code={YOUR_CODE}
+#EXTINF:-1,Top Crime IT
+http://htq.brasilia.me/iptv/ch1342?code={YOUR_CODE}
+#EXTINF:-1,Boing IT
+http://htq.brasilia.me/iptv/ch1341?code={YOUR_CODE}
+#EXTINF:-1,Joi IT
+http://htq.brasilia.me/iptv/ch1905?code={YOUR_CODE}
+#EXTINF:-1,Paramount Ch. IT
+http://htq.brasilia.me/iptv/ch1902?code={YOUR_CODE}
+#EXTINF:-1,Italia 1
+http://htq.brasilia.me/iptv/ch1340?code={YOUR_CODE}
+#EXTINF:-1,LA 7 IT
+http://htq.brasilia.me/iptv/ch1920?code={YOUR_CODE}
+#EXTINF:-1,Focus TV IT
+http://htq.brasilia.me/iptv/ch1335?code={YOUR_CODE}
+#EXTINF:-1,Studio Universal IT
+http://htq.brasilia.me/iptv/ch1907?code={YOUR_CODE}
+#EXTINF:-1,Giallo TV IT
+http://htq.brasilia.me/iptv/ch1334?code={YOUR_CODE}
+#EXTINF:-1,MTV 8 IT
+http://htq.brasilia.me/iptv/ch1333?code={YOUR_CODE}
+#EXTINF:-1,Deejay IT
+http://htq.brasilia.me/iptv/ch1901?code={YOUR_CODE}
+#EXTINF:-1,Mediaset Extra IT
+http://htq.brasilia.me/iptv/ch1314?code={YOUR_CODE}
+#EXTINF:-1,Mediaset 2 IT
+http://htq.brasilia.me/iptv/ch1312?code={YOUR_CODE}
+#EXTINF:-1,Premium Cinema IT
+http://htq.brasilia.me/iptv/ch1930?code={YOUR_CODE}
+#EXTINF:-1,Premium Cinema +24
+http://htq.brasilia.me/iptv/ch1917?code={YOUR_CODE}
+#EXTINF:-1,Premium Cinema 2
+http://htq.brasilia.me/iptv/ch1931?code={YOUR_CODE}
+#EXTINF:-1,Premium Comedy IT
+http://htq.brasilia.me/iptv/ch1928?code={YOUR_CODE}
+#EXTINF:-1,Premium Crime IT
+http://htq.brasilia.me/iptv/ch1922?code={YOUR_CODE}
+#EXTINF:-1,Premium Action IT
+http://htq.brasilia.me/iptv/ch1923?code={YOUR_CODE}
+#EXTINF:-1,Premium Action +24
+http://htq.brasilia.me/iptv/ch1918?code={YOUR_CODE}
+#EXTINF:-1,Premium Stories IT
+http://htq.brasilia.me/iptv/ch1906?code={YOUR_CODE}
+#EXTINF:-1,Premium Energy IT
+http://htq.brasilia.me/iptv/ch1909?code={YOUR_CODE}
+#EXTINF:-1,Premium Motion IT
+http://htq.brasilia.me/iptv/ch1908?code={YOUR_CODE}
+#EXTINF:-1,Sport Italia IT
+http://htq.brasilia.me/iptv/ch1933?code={YOUR_CODE}
+#EXTINF:-1,Premium Sport 1 IT
+http://htq.brasilia.me/iptv/ch1927?code={YOUR_CODE}
+#EXTINF:-1,Premium Sport 2 IT
+http://htq.brasilia.me/iptv/ch1910?code={YOUR_CODE}
+#EXTINF:-1,Eurosport 1 IT
+http://htq.brasilia.me/iptv/ch1924?code={YOUR_CODE}
+#EXTINF:-1,Eurosport 2 IT
+http://htq.brasilia.me/iptv/ch1925?code={YOUR_CODE}
+#EXTINF:-1,Premium Calcio 1 IT
+http://htq.brasilia.me/iptv/ch1926?code={YOUR_CODE}
+#EXTINF:-1,Premium Calcio 2 IT
+http://htq.brasilia.me/iptv/ch1911?code={YOUR_CODE}
+#EXTINF:-1,Premium Calcio 3 IT
+http://htq.brasilia.me/iptv/ch1912?code={YOUR_CODE}
+#EXTINF:-1,Premium Calcio 4 IT
+http://htq.brasilia.me/iptv/ch1913?code={YOUR_CODE}
+#EXTINF:-1,Premium Calcio 5 IT
+http://htq.brasilia.me/iptv/ch1914?code={YOUR_CODE}
+#EXTINF:-1,Premium Calcio 6 IT
+http://htq.brasilia.me/iptv/ch1915?code={YOUR_CODE}
+#EXTINF:-1,Premium Calcio 7
+http://htq.brasilia.me/iptv/ch1921?code={YOUR_CODE}
+#EXTINF:-1,Disney Junior IT
+http://htq.brasilia.me/iptv/ch1932?code={YOUR_CODE}
+#EXTINF:-1,Cartoon Network IT
+http://htq.brasilia.me/iptv/ch1916?code={YOUR_CODE}
+#EXTINF:-1,Cartoonito IT
+http://htq.brasilia.me/iptv/ch1343?code={YOUR_CODE}
+#EXTINF:-1,Sky Cinema 1 IT
+http://htq.brasilia.me/iptv/ch1301?code={YOUR_CODE}
+#EXTINF:-1,Sky Cinema Max IT
+http://htq.brasilia.me/iptv/ch1302?code={YOUR_CODE}
+#EXTINF:-1,Sky Cinema Hits IT
+http://htq.brasilia.me/iptv/ch1300?code={YOUR_CODE}
+#EXTINF:-1,Prima Fila 1 IT
+http://htq.brasilia.me/iptv/ch950?code={YOUR_CODE}
+#EXTINF:-1,Prima Fila 2 IT
+http://htq.brasilia.me/iptv/ch951?code={YOUR_CODE}
+#EXTINF:-1,Prima Fila 3 IT
+http://htq.brasilia.me/iptv/ch952?code={YOUR_CODE}
+#EXTINF:-1,SKY Sport 1 IT
+http://htq.brasilia.me/iptv/ch953?code={YOUR_CODE}
+#EXTINF:-1,SKY Sport 2 IT
+http://htq.brasilia.me/iptv/ch954?code={YOUR_CODE}
+#EXTINF:-1,SKY Sport 3 IT
+http://htq.brasilia.me/iptv/ch955?code={YOUR_CODE}
+#EXTINF:-1,Sky Calcio 1 IT
+http://htq.brasilia.me/iptv/ch1306?code={YOUR_CODE}
+#EXTINF:-1,Sky Calcio 2 IT
+http://htq.brasilia.me/iptv/ch1307?code={YOUR_CODE}
+#EXTINF:-1,Sky Calcio 3 IT
+http://htq.brasilia.me/iptv/ch1308?code={YOUR_CODE}
+#EXTINF:-1,Sky Cinema Classic I
+http://htq.brasilia.me/iptv/ch1305?code={YOUR_CODE}
+#EXTINF:-1,Sky Cinema Family IT
+http://htq.brasilia.me/iptv/ch1303?code={YOUR_CODE}
+#EXTINF:-1,Discovery  IT
+http://htq.brasilia.me/iptv/ch1304?code={YOUR_CODE}
+#EXTINF:-1 group-title="Africa",Nollywood
+http://htq.brasilia.me/iptv/ch1042?code={YOUR_CODE}
+#EXTINF:-1,Vox Africa
+http://htq.brasilia.me/iptv/ch1040?code={YOUR_CODE}
+#EXTINF:-1,TVC news
+http://htq.brasilia.me/iptv/ch1039?code={YOUR_CODE}
+#EXTINF:-1,2STV
+http://htq.brasilia.me/iptv/ch1038?code={YOUR_CODE}
+#EXTINF:-1,Ortb
+http://htq.brasilia.me/iptv/ch1036?code={YOUR_CODE}
+#EXTINF:-1,RTI LA 1
+http://htq.brasilia.me/iptv/ch1034?code={YOUR_CODE}
+#EXTINF:-1,Tchad TV
+http://htq.brasilia.me/iptv/ch440?code={YOUR_CODE}
+#EXTINF:-1,HCTV
+http://htq.brasilia.me/iptv/ch1007?code={YOUR_CODE}
+#EXTINF:-1,ERI TV
+http://htq.brasilia.me/iptv/ch1008?code={YOUR_CODE}
+#EXTINF:-1,Somali Cable TV
+http://htq.brasilia.me/iptv/ch1009?code={YOUR_CODE}
+#EXTINF:-1,EthiopiaTV
+http://htq.brasilia.me/iptv/ch1006?code={YOUR_CODE}
+#EXTINF:-1,ESTV
+http://htq.brasilia.me/iptv/ch1005?code={YOUR_CODE}
+#EXTINF:-1,Somali national
+http://htq.brasilia.me/iptv/ch1004?code={YOUR_CODE}
+#EXTINF:-1,Universal Somali
+http://htq.brasilia.me/iptv/ch1003?code={YOUR_CODE}
+#EXTINF:-1,SN TV
+http://htq.brasilia.me/iptv/ch1001?code={YOUR_CODE}
+#EXTINF:-1,Kalsan TV
+http://htq.brasilia.me/iptv/ch1000?code={YOUR_CODE}
+#EXTINF:-1,Oromia TV
+http://htq.brasilia.me/iptv/ch833?code={YOUR_CODE}
+#EXTINF:-1,ETV
+http://htq.brasilia.me/iptv/ch812?code={YOUR_CODE}
+#EXTINF:-1,Ethiopia 3
+http://htq.brasilia.me/iptv/ch811?code={YOUR_CODE}
+#EXTINF:-1,Tayba TV
+http://htq.brasilia.me/iptv/ch716?code={YOUR_CODE}
+#EXTINF:-1,RTVGE
+http://htq.brasilia.me/iptv/ch842?code={YOUR_CODE}
+#EXTINF:-1,Africa 24
+http://htq.brasilia.me/iptv/ch27?code={YOUR_CODE}
+#EXTINF:-1,RTS 1 Senegal
+http://htq.brasilia.me/iptv/ch1021?code={YOUR_CODE}
+#EXTINF:-1,TFM TV
+http://htq.brasilia.me/iptv/ch1020?code={YOUR_CODE}
+#EXTINF:-1,TPA Angola
+http://htq.brasilia.me/iptv/ch1018?code={YOUR_CODE}
+#EXTINF:-1,ORTM
+http://htq.brasilia.me/iptv/ch1019?code={YOUR_CODE}
+#EXTINF:-1 group-title="My-HD",MBC 1 HD
+http://htq.brasilia.me/iptv/ch827?code={YOUR_CODE}
+#EXTINF:-1,MBC 2 HD
+http://htq.brasilia.me/iptv/ch828?code={YOUR_CODE}
+#EXTINF:-1,MBC 4 HD
+http://htq.brasilia.me/iptv/ch829?code={YOUR_CODE}
+#EXTINF:-1,MBC Action HD
+http://htq.brasilia.me/iptv/ch1109?code={YOUR_CODE}
+#EXTINF:-1,MBC Variety
+http://htq.brasilia.me/iptv/ch1102?code={YOUR_CODE}
+#EXTINF:-1,DocuBox
+http://htq.brasilia.me/iptv/ch1105?code={YOUR_CODE}
+#EXTINF:-1,Animal Planet
+http://htq.brasilia.me/iptv/ch1104?code={YOUR_CODE}
+#EXTINF:-1,Discovery Science
+http://htq.brasilia.me/iptv/ch1103?code={YOUR_CODE}
+#EXTINF:-1,H-2
+http://htq.brasilia.me/iptv/ch1101?code={YOUR_CODE}
+#EXTINF:-1,Fight Box
+http://htq.brasilia.me/iptv/ch1100?code={YOUR_CODE}
+#EXTINF:-1,MBC Pro 1
+http://htq.brasilia.me/iptv/ch823?code={YOUR_CODE}
+#EXTINF:-1,MBC Pro 2
+http://htq.brasilia.me/iptv/ch824?code={YOUR_CODE}
+#EXTINF:-1,MBC Pro 3
+http://htq.brasilia.me/iptv/ch825?code={YOUR_CODE}
+#EXTINF:-1,MBC Pro 4
+http://htq.brasilia.me/iptv/ch826?code={YOUR_CODE}
+#EXTINF:-1 group-title="Digital Spain",La 1 SP
+http://htq.brasilia.me/iptv/ch1213?code={YOUR_CODE}
+#EXTINF:-1,Antenna3 SP
+http://htq.brasilia.me/iptv/ch1214?code={YOUR_CODE}
+#EXTINF:-1,Cuatro SP
+http://htq.brasilia.me/iptv/ch1212?code={YOUR_CODE}
+#EXTINF:-1,Tele Cinco SP
+http://htq.brasilia.me/iptv/ch1217?code={YOUR_CODE}
+#EXTINF:-1,La 6 SP
+http://htq.brasilia.me/iptv/ch1215?code={YOUR_CODE}
+#EXTINF:-1,Canal+ Estrellas
+http://htq.brasilia.me/iptv/ch1247?code={YOUR_CODE}
+#EXTINF:-1,Canal+ Estrenos SP
+http://htq.brasilia.me/iptv/ch1200?code={YOUR_CODE}
+#EXTINF:-1,Canal+ Serie SP
+http://htq.brasilia.me/iptv/ch1207?code={YOUR_CODE}
+#EXTINF:-1,Canal+ Xtra SP
+http://htq.brasilia.me/iptv/ch1210?code={YOUR_CODE}
+#EXTINF:-1,Canal+ Comedia SP
+http://htq.brasilia.me/iptv/ch1205?code={YOUR_CODE}
+#EXTINF:-1,Canal+ Dcine SP
+http://htq.brasilia.me/iptv/ch1218?code={YOUR_CODE}
+#EXTINF:-1,Canal+ Action SP
+http://htq.brasilia.me/iptv/ch1219?code={YOUR_CODE}
+#EXTINF:-1,Canal+ Hollywood SP
+http://htq.brasilia.me/iptv/ch1211?code={YOUR_CODE}
+#EXTINF:-1,Canal+ COCINA SP
+http://htq.brasilia.me/iptv/ch1209?code={YOUR_CODE}
+#EXTINF:-1,VIAJAR SP
+http://htq.brasilia.me/iptv/ch1206?code={YOUR_CODE}
+#EXTINF:-1,TCM SP
+http://htq.brasilia.me/iptv/ch1204?code={YOUR_CODE}
+#EXTINF:-1,40-TV
+http://htq.brasilia.me/iptv/ch1203?code={YOUR_CODE}
+#EXTINF:-1,Bein Sport SPANA
+http://htq.brasilia.me/iptv/ch1220?code={YOUR_CODE}
+#EXTINF:-1,Canal+ Liga SP
+http://htq.brasilia.me/iptv/ch1221?code={YOUR_CODE}
+#EXTINF:-1,Canal+ Deporte 2 SP
+http://htq.brasilia.me/iptv/ch1222?code={YOUR_CODE}
+#EXTINF:-1,Canal+ Futbol SP
+http://htq.brasilia.me/iptv/ch1224?code={YOUR_CODE}
+#EXTINF:-1,Real Madrid CH.
+http://htq.brasilia.me/iptv/ch1223?code={YOUR_CODE}
+#EXTINF:-1,Barca Tv
+http://htq.brasilia.me/iptv/ch1225?code={YOUR_CODE}
+#EXTINF:-1,Canal+ Toros
+http://htq.brasilia.me/iptv/ch1226?code={YOUR_CODE}
+#EXTINF:-1,Canal+ Golf SP
+http://htq.brasilia.me/iptv/ch1227?code={YOUR_CODE}
+#EXTINF:-1,TELE DEPORTE SP
+http://htq.brasilia.me/iptv/ch1208?code={YOUR_CODE}
+#EXTINF:-1,Eurosport 1
+http://htq.brasilia.me/iptv/ch1202?code={YOUR_CODE}
+#EXTINF:-1,Canal Panda SP
+http://htq.brasilia.me/iptv/ch1228?code={YOUR_CODE}
+#EXTINF:-1,Neox SP
+http://htq.brasilia.me/iptv/ch1229?code={YOUR_CODE}
+#EXTINF:-1,Canal Yomvi SP
+http://htq.brasilia.me/iptv/ch1230?code={YOUR_CODE}
+#EXTINF:-1,Paramount Ch. SP
+http://htq.brasilia.me/iptv/ch1231?code={YOUR_CODE}
+#EXTINF:-1,Nat Geo SP
+http://htq.brasilia.me/iptv/ch1216?code={YOUR_CODE}
+#EXTINF:-1,Nat. Geo. Wild
+http://htq.brasilia.me/iptv/ch1232?code={YOUR_CODE}
+#EXTINF:-1,Nova SP
+http://htq.brasilia.me/iptv/ch1233?code={YOUR_CODE}
+#EXTINF:-1,Syfy SP
+http://htq.brasilia.me/iptv/ch1234?code={YOUR_CODE}
+#EXTINF:-1,Cosemopolitan SP
+http://htq.brasilia.me/iptv/ch1235?code={YOUR_CODE}
+#EXTINF:-1,TNT SP
+http://htq.brasilia.me/iptv/ch1236?code={YOUR_CODE}
+#EXTINF:-1,Calle 13 SP
+http://htq.brasilia.me/iptv/ch1237?code={YOUR_CODE}
+#EXTINF:-1,AMC SP
+http://htq.brasilia.me/iptv/ch1238?code={YOUR_CODE}
+#EXTINF:-1,AXN SP
+http://htq.brasilia.me/iptv/ch1239?code={YOUR_CODE}
+#EXTINF:-1,Fox SP
+http://htq.brasilia.me/iptv/ch1240?code={YOUR_CODE}
+#EXTINF:-1,Fox life SP
+http://htq.brasilia.me/iptv/ch1241?code={YOUR_CODE}
+#EXTINF:-1,Fox News SP
+http://htq.brasilia.me/iptv/ch1242?code={YOUR_CODE}
+#EXTINF:-1,MTV SP
+http://htq.brasilia.me/iptv/ch1243?code={YOUR_CODE}
+#EXTINF:-1,Nickelodeon SP
+http://htq.brasilia.me/iptv/ch1244?code={YOUR_CODE}
+#EXTINF:-1,Boing SP
+http://htq.brasilia.me/iptv/ch1245?code={YOUR_CODE}
+#EXTINF:-1,Disney Ch. SP
+http://htq.brasilia.me/iptv/ch1201?code={YOUR_CODE}
+#EXTINF:-1,Disney Junior SP
+http://htq.brasilia.me/iptv/ch1246?code={YOUR_CODE}
+#EXTINF:-1 group-title="Fr Box Office",Box Office 1
+http://htq.brasilia.me/iptv/ch300?code={YOUR_CODE}
+#EXTINF:-1,Box Office 2
+http://htq.brasilia.me/iptv/ch301?code={YOUR_CODE}
+#EXTINF:-1,Box Office 3
+http://htq.brasilia.me/iptv/ch302?code={YOUR_CODE}
+#EXTINF:-1,Box Office 4
+http://htq.brasilia.me/iptv/ch303?code={YOUR_CODE}
+#EXTINF:-1,Box Office 5
+http://htq.brasilia.me/iptv/ch304?code={YOUR_CODE}
+#EXTINF:-1,Box Office 6
+http://htq.brasilia.me/iptv/ch305?code={YOUR_CODE}
+#EXTINF:-1,Box Office 7
+http://htq.brasilia.me/iptv/ch306?code={YOUR_CODE}
+#EXTINF:-1,Box Office 8
+http://htq.brasilia.me/iptv/ch307?code={YOUR_CODE}
+#EXTINF:-1,Box Office 9
+http://htq.brasilia.me/iptv/ch308?code={YOUR_CODE}
+#EXTINF:-1,Box Office 10
+http://htq.brasilia.me/iptv/ch309?code={YOUR_CODE}
+#EXTINF:-1 group-title="AraBoxOffice",Araboxoffice1
+http://htq.brasilia.me/iptv/ch310?code={YOUR_CODE}
+#EXTINF:-1,Araboxoffice2
+http://htq.brasilia.me/iptv/ch311?code={YOUR_CODE}
+#EXTINF:-1,Araboxoffice3
+http://htq.brasilia.me/iptv/ch312?code={YOUR_CODE}
+#EXTINF:-1,Araboxoffice4
+http://htq.brasilia.me/iptv/ch313?code={YOUR_CODE}
+#EXTINF:-1,Araboxoffice5
+http://htq.brasilia.me/iptv/ch314?code={YOUR_CODE}
+#EXTINF:-1,Araboxoffice6
+http://htq.brasilia.me/iptv/ch315?code={YOUR_CODE}
+#EXTINF:-1,Araboxoffice7
+http://htq.brasilia.me/iptv/ch316?code={YOUR_CODE}
+#EXTINF:-1,Araboxoffice8
+http://htq.brasilia.me/iptv/ch317?code={YOUR_CODE}
+#EXTINF:-1,Araboxoffice9
+http://htq.brasilia.me/iptv/ch318?code={YOUR_CODE}
+#EXTINF:-1,Araboxoffice10
+http://htq.brasilia.me/iptv/ch319?code={YOUR_CODE}
+#EXTINF:-1 group-title="US Box Office",US Box Office 1
+http://htq.brasilia.me/iptv/ch320?code={YOUR_CODE}
+#EXTINF:-1,US Box Office 2
+http://htq.brasilia.me/iptv/ch321?code={YOUR_CODE}
+#EXTINF:-1,US Box Office 3
+http://htq.brasilia.me/iptv/ch322?code={YOUR_CODE}
+#EXTINF:-1,US Box Office 4
+http://htq.brasilia.me/iptv/ch323?code={YOUR_CODE}
+#EXTINF:-1,US Box Office 5
+http://htq.brasilia.me/iptv/ch324?code={YOUR_CODE}
+#EXTINF:-1,US Box Office 6
+http://htq.brasilia.me/iptv/ch325?code={YOUR_CODE}
+#EXTINF:-1,US Box Office 7
+http://htq.brasilia.me/iptv/ch326?code={YOUR_CODE}
+#EXTINF:-1,US Box Office 8
+http://htq.brasilia.me/iptv/ch327?code={YOUR_CODE}
+#EXTINF:-1,US Box Office 9
+http://htq.brasilia.me/iptv/ch328?code={YOUR_CODE}
+#EXTINF:-1,US Box Office 10
+http://htq.brasilia.me/iptv/ch329?code={YOUR_CODE}
+#EXTINF:-1 group-title="Benelux",NED 1
+http://htq.brasilia.me/iptv/ch830?code={YOUR_CODE}
+#EXTINF:-1,NED 2
+http://htq.brasilia.me/iptv/ch831?code={YOUR_CODE}
+#EXTINF:-1,NED 3
+http://htq.brasilia.me/iptv/ch832?code={YOUR_CODE}
+#EXTINF:-1,RTL 4 NL
+http://htq.brasilia.me/iptv/ch850?code={YOUR_CODE}
+#EXTINF:-1,RTL 5 NL
+http://htq.brasilia.me/iptv/ch851?code={YOUR_CODE}
+#EXTINF:-1,SBS 6 NL
+http://htq.brasilia.me/iptv/ch852?code={YOUR_CODE}
+#EXTINF:-1,RTL 7 HD
+http://htq.brasilia.me/iptv/ch866?code={YOUR_CODE}
+#EXTINF:-1,RTL 8 HD
+http://htq.brasilia.me/iptv/ch872?code={YOUR_CODE}
+#EXTINF:-1,SBS 9
+http://htq.brasilia.me/iptv/ch882?code={YOUR_CODE}
+#EXTINF:-1,RTL Z
+http://htq.brasilia.me/iptv/ch875?code={YOUR_CODE}
+#EXTINF:-1,HBO 1 NL
+http://htq.brasilia.me/iptv/ch857?code={YOUR_CODE}
+#EXTINF:-1,HBO 2 NL
+http://htq.brasilia.me/iptv/ch858?code={YOUR_CODE}
+#EXTINF:-1,HBO 3 NL
+http://htq.brasilia.me/iptv/ch859?code={YOUR_CODE}
+#EXTINF:-1,Film 1 Sundance NL
+http://htq.brasilia.me/iptv/ch890?code={YOUR_CODE}
+#EXTINF:-1,Film1 Action
+http://htq.brasilia.me/iptv/ch877?code={YOUR_CODE}
+#EXTINF:-1,Film 1 premium NL
+http://htq.brasilia.me/iptv/ch856?code={YOUR_CODE}
+#EXTINF:-1,Film1 Comedy
+http://htq.brasilia.me/iptv/ch876?code={YOUR_CODE}
+#EXTINF:-1,Fox Channel
+http://htq.brasilia.me/iptv/ch862?code={YOUR_CODE}
+#EXTINF:-1,Fox sport 1
+http://htq.brasilia.me/iptv/ch867?code={YOUR_CODE}
+#EXTINF:-1,Fox sport 2
+http://htq.brasilia.me/iptv/ch891?code={YOUR_CODE}
+#EXTINF:-1,Fox sport 3
+http://htq.brasilia.me/iptv/ch880?code={YOUR_CODE}
+#EXTINF:-1,Fox Sport 4
+http://htq.brasilia.me/iptv/ch1861?code={YOUR_CODE}
+#EXTINF:-1,Fox Sport 5
+http://htq.brasilia.me/iptv/ch1862?code={YOUR_CODE}
+#EXTINF:-1,Fox Sport 6
+http://htq.brasilia.me/iptv/ch1863?code={YOUR_CODE}
+#EXTINF:-1,Sport1 Select NL
+http://htq.brasilia.me/iptv/ch860?code={YOUR_CODE}
+#EXTINF:-1,Sport1 Voetba
+http://htq.brasilia.me/iptv/ch878?code={YOUR_CODE}
+#EXTINF:-1,Sport1 Golf
+http://htq.brasilia.me/iptv/ch1879?code={YOUR_CODE}
+#EXTINF:-1,Sport1 Tennis
+http://htq.brasilia.me/iptv/ch1865?code={YOUR_CODE}
+#EXTINF:-1,Sport1 Extra2
+http://htq.brasilia.me/iptv/ch1866?code={YOUR_CODE}
+#EXTINF:-1,Sport1 Extra 1
+http://htq.brasilia.me/iptv/ch1867?code={YOUR_CODE}
+#EXTINF:-1,Ziggo Sport
+http://htq.brasilia.me/iptv/ch1864?code={YOUR_CODE}
+#EXTINF:-1,NPO Cultura
+http://htq.brasilia.me/iptv/ch861?code={YOUR_CODE}
+#EXTINF:-1,24 Kitchen NL
+http://htq.brasilia.me/iptv/ch892?code={YOUR_CODE}
+#EXTINF:-1,Canvas NL
+http://htq.brasilia.me/iptv/ch889?code={YOUR_CODE}
+#EXTINF:-1,RTL Lounge
+http://htq.brasilia.me/iptv/ch873?code={YOUR_CODE}
+#EXTINF:-1,Een HD NL
+http://htq.brasilia.me/iptv/ch888?code={YOUR_CODE}
+#EXTINF:-1,ONS NL
+http://htq.brasilia.me/iptv/ch893?code={YOUR_CODE}
+#EXTINF:-1,TLC Netherlands
+http://htq.brasilia.me/iptv/ch883?code={YOUR_CODE}
+#EXTINF:-1,SyFy Benelux
+http://htq.brasilia.me/iptv/ch874?code={YOUR_CODE}
+#EXTINF:-1,Edge
+http://htq.brasilia.me/iptv/ch871?code={YOUR_CODE}
+#EXTINF:-1,13th Street
+http://htq.brasilia.me/iptv/ch869?code={YOUR_CODE}
+#EXTINF:-1,The Q You
+http://htq.brasilia.me/iptv/ch868?code={YOUR_CODE}
+#EXTINF:-1,Cartoon Network NL
+http://htq.brasilia.me/iptv/ch881?code={YOUR_CODE}
+#EXTINF:-1,Disney Channel NL
+http://htq.brasilia.me/iptv/ch865?code={YOUR_CODE}
+#EXTINF:-1,Boomerang
+http://htq.brasilia.me/iptv/ch863?code={YOUR_CODE}
+#EXTINF:-1,Film1 Spotlight
+http://htq.brasilia.me/iptv/ch1868?code={YOUR_CODE}
+#EXTINF:-1,Ketop 12 NL
+http://htq.brasilia.me/iptv/ch1869?code={YOUR_CODE}
+#EXTINF:-1,Veronica
+http://htq.brasilia.me/iptv/ch1870?code={YOUR_CODE}
+#EXTINF:-1,Discovery Showcase N
+http://htq.brasilia.me/iptv/ch1871?code={YOUR_CODE}
+#EXTINF:-1,E. NL
+http://htq.brasilia.me/iptv/ch1872?code={YOUR_CODE}
+#EXTINF:-1,Comedy central NL
+http://htq.brasilia.me/iptv/ch1878?code={YOUR_CODE}
+#EXTINF:-1,Animal Planet NL
+http://htq.brasilia.me/iptv/ch1873?code={YOUR_CODE}
+#EXTINF:-1,Discovery Channel
+http://htq.brasilia.me/iptv/ch870?code={YOUR_CODE}
+#EXTINF:-1,Discovery Investigat
+http://htq.brasilia.me/iptv/ch864?code={YOUR_CODE}
+#EXTINF:-1,Travel Channel NL
+http://htq.brasilia.me/iptv/ch1874?code={YOUR_CODE}
+#EXTINF:-1,Discovery ID NL
+http://htq.brasilia.me/iptv/ch1875?code={YOUR_CODE}
+#EXTINF:-1,Hors and country NL
+http://htq.brasilia.me/iptv/ch1876?code={YOUR_CODE}
+#EXTINF:-1,NatGeo NL
+http://htq.brasilia.me/iptv/ch884?code={YOUR_CODE}
+#EXTINF:-1,Nat. Geo Wild NL
+http://htq.brasilia.me/iptv/ch879?code={YOUR_CODE}
+#EXTINF:-1,History NL
+http://htq.brasilia.me/iptv/ch1880?code={YOUR_CODE}
+#EXTINF:-1,Fashion NL
+http://htq.brasilia.me/iptv/ch1881?code={YOUR_CODE}
+#EXTINF:-1,Fox Life
+http://htq.brasilia.me/iptv/ch1882?code={YOUR_CODE}
+#EXTINF:-1,ATV
+http://htq.brasilia.me/iptv/ch1883?code={YOUR_CODE}
+#EXTINF:-1,JimJam NL
+http://htq.brasilia.me/iptv/ch1884?code={YOUR_CODE}
+#EXTINF:-1,MTV NL
+http://htq.brasilia.me/iptv/ch885?code={YOUR_CODE}
+#EXTINF:-1,MTV Live NL
+http://htq.brasilia.me/iptv/ch886?code={YOUR_CODE}
+#EXTINF:-1,La Une
+http://htq.brasilia.me/iptv/ch822?code={YOUR_CODE}
+#EXTINF:-1,La Deux
+http://htq.brasilia.me/iptv/ch819?code={YOUR_CODE}
+#EXTINF:-1,La Trois
+http://htq.brasilia.me/iptv/ch821?code={YOUR_CODE}
+#EXTINF:-1,RTL TVI
+http://htq.brasilia.me/iptv/ch837?code={YOUR_CODE}
+#EXTINF:-1,Club RTL
+http://htq.brasilia.me/iptv/ch848?code={YOUR_CODE}
+#EXTINF:-1,Plug RTL
+http://htq.brasilia.me/iptv/ch836?code={YOUR_CODE}
+#EXTINF:-1,VTM
+http://htq.brasilia.me/iptv/ch1890?code={YOUR_CODE}
+#EXTINF:-1,VTM Kzoom
+http://htq.brasilia.me/iptv/ch1889?code={YOUR_CODE}
+#EXTINF:-1,Vitaya
+http://htq.brasilia.me/iptv/ch1888?code={YOUR_CODE}
+#EXTINF:-1,Vier
+http://htq.brasilia.me/iptv/ch1887?code={YOUR_CODE}
+#EXTINF:-1,Acht
+http://htq.brasilia.me/iptv/ch1886?code={YOUR_CODE}
+#EXTINF:-1,2 Be
+http://htq.brasilia.me/iptv/ch1885?code={YOUR_CODE}
+#EXTINF:-1 group-title="Kurdi",Waar TV
+http://htq.brasilia.me/iptv/ch168?code={YOUR_CODE}
+#EXTINF:-1,Kurdistan 24
+http://htq.brasilia.me/iptv/ch475?code={YOUR_CODE}
+#EXTINF:-1,Zagros TV
+http://htq.brasilia.me/iptv/ch846?code={YOUR_CODE}
+#EXTINF:-1,TRT Kurdish
+http://htq.brasilia.me/iptv/ch844?code={YOUR_CODE}
+#EXTINF:-1,Palestank TV
+http://htq.brasilia.me/iptv/ch834?code={YOUR_CODE}
+#EXTINF:-1,Kurdmax
+http://htq.brasilia.me/iptv/ch817?code={YOUR_CODE}
+#EXTINF:-1,Kurdistan TV
+http://htq.brasilia.me/iptv/ch816?code={YOUR_CODE}
+#EXTINF:-1,KNN
+http://htq.brasilia.me/iptv/ch815?code={YOUR_CODE}
+#EXTINF:-1,Tigray TV
+http://htq.brasilia.me/iptv/ch843?code={YOUR_CODE}
+#EXTINF:-1,Gali Kurd
+http://htq.brasilia.me/iptv/ch813?code={YOUR_CODE}
+#EXTINF:-1 group-title="Cyfra+",TVP 1 Cy
+http://htq.brasilia.me/iptv/ch1410?code={YOUR_CODE}
+#EXTINF:-1,TVP 2 Cy
+http://htq.brasilia.me/iptv/ch1411?code={YOUR_CODE}
+#EXTINF:-1,Canal+ Polska Cy
+http://htq.brasilia.me/iptv/ch1412?code={YOUR_CODE}
+#EXTINF:-1,Canal + Sport Cy
+http://htq.brasilia.me/iptv/ch1413?code={YOUR_CODE}
+#EXTINF:-1,Minimini Cy
+http://htq.brasilia.me/iptv/ch1402?code={YOUR_CODE}
+#EXTINF:-1,Disney Channel Cy
+http://htq.brasilia.me/iptv/ch1403?code={YOUR_CODE}
+#EXTINF:-1,Polsat Cy
+http://htq.brasilia.me/iptv/ch1405?code={YOUR_CODE}
+#EXTINF:-1,Nat Geo Cy
+http://htq.brasilia.me/iptv/ch1416?code={YOUR_CODE}
+#EXTINF:-1,TV 4 Cy
+http://htq.brasilia.me/iptv/ch1404?code={YOUR_CODE}
+#EXTINF:-1,Ale Kino + Cy
+http://htq.brasilia.me/iptv/ch1409?code={YOUR_CODE}
+#EXTINF:-1,N sport Cy
+http://htq.brasilia.me/iptv/ch1400?code={YOUR_CODE}
+#EXTINF:-1,Kuchnia + Cy
+http://htq.brasilia.me/iptv/ch1414?code={YOUR_CODE}
+#EXTINF:-1,Domo + Cy
+http://htq.brasilia.me/iptv/ch1407?code={YOUR_CODE}
+#EXTINF:-1,Teletoon + Cy
+http://htq.brasilia.me/iptv/ch1415?code={YOUR_CODE}
+#EXTINF:-1 group-title="Turkish",ATV HD
+http://htq.brasilia.me/iptv/ch2349?code={YOUR_CODE}
+#EXTINF:-1,Kanal D HD
+http://htq.brasilia.me/iptv/ch2333?code={YOUR_CODE}
+#EXTINF:-1,Show TV HD
+http://htq.brasilia.me/iptv/ch2314?code={YOUR_CODE}
+#EXTINF:-1,Star Tv HD
+http://htq.brasilia.me/iptv/ch2311?code={YOUR_CODE}
+#EXTINF:-1,TV8 Tr
+http://htq.brasilia.me/iptv/ch1354?code={YOUR_CODE}
+#EXTINF:-1,Fox TV
+http://htq.brasilia.me/iptv/ch1376?code={YOUR_CODE}
+#EXTINF:-1,CNN Türk HD
+http://htq.brasilia.me/iptv/ch2344?code={YOUR_CODE}
+#EXTINF:-1,Beyaz TV HD
+http://htq.brasilia.me/iptv/ch2347?code={YOUR_CODE}
+#EXTINF:-1,Habertürk
+http://htq.brasilia.me/iptv/ch2338?code={YOUR_CODE}
+#EXTINF:-1,A Haber
+http://htq.brasilia.me/iptv/ch2351?code={YOUR_CODE}
+#EXTINF:-1,Türkmax HD
+http://htq.brasilia.me/iptv/ch2307?code={YOUR_CODE}
+#EXTINF:-1,TRT 1
+http://htq.brasilia.me/iptv/ch1359?code={YOUR_CODE}
+#EXTINF:-1,TRT Sport
+http://htq.brasilia.me/iptv/ch1363?code={YOUR_CODE}
+#EXTINF:-1,TRT Musik
+http://htq.brasilia.me/iptv/ch1365?code={YOUR_CODE}
+#EXTINF:-1,TRT Haber
+http://htq.brasilia.me/iptv/ch1358?code={YOUR_CODE}
+#EXTINF:-1,TRT Diyanet
+http://htq.brasilia.me/iptv/ch1361?code={YOUR_CODE}
+#EXTINF:-1,TRT Cocuk
+http://htq.brasilia.me/iptv/ch1366?code={YOUR_CODE}
+#EXTINF:-1,TRT Belgesel
+http://htq.brasilia.me/iptv/ch1357?code={YOUR_CODE}
+#EXTINF:-1,TRTavaz
+http://htq.brasilia.me/iptv/ch1360?code={YOUR_CODE}
+#EXTINF:-1,TRT 6
+http://htq.brasilia.me/iptv/ch1362?code={YOUR_CODE}
+#EXTINF:-1,TRT Arabic
+http://htq.brasilia.me/iptv/ch459?code={YOUR_CODE}
+#EXTINF:-1,NTV
+http://htq.brasilia.me/iptv/ch2323?code={YOUR_CODE}
+#EXTINF:-1,NR1 Tv
+http://htq.brasilia.me/iptv/ch2324?code={YOUR_CODE}
+#EXTINF:-1,NR1 Türk Tv
+http://htq.brasilia.me/iptv/ch2325?code={YOUR_CODE}
+#EXTINF:-1,NBA TV HD
+http://htq.brasilia.me/iptv/ch2326?code={YOUR_CODE}
+#EXTINF:-1,TV4
+http://htq.brasilia.me/iptv/ch2304?code={YOUR_CODE}
+#EXTINF:-1,Tv 24
+http://htq.brasilia.me/iptv/ch2305?code={YOUR_CODE}
+#EXTINF:-1,TV 2
+http://htq.brasilia.me/iptv/ch2306?code={YOUR_CODE}
+#EXTINF:-1,VIVA TR
+http://htq.brasilia.me/iptv/ch2308?code={YOUR_CODE}
+#EXTINF:-1,Ulusal Tv
+http://htq.brasilia.me/iptv/ch2301?code={YOUR_CODE}
+#EXTINF:-1,Ulke TV
+http://htq.brasilia.me/iptv/ch2302?code={YOUR_CODE}
+#EXTINF:-1,TVNET HD
+http://htq.brasilia.me/iptv/ch2303?code={YOUR_CODE}
+#EXTINF:-1,TGRT Haber
+http://htq.brasilia.me/iptv/ch2352?code={YOUR_CODE}
+#EXTINF:-1,TGRT EU
+http://htq.brasilia.me/iptv/ch2309?code={YOUR_CODE}
+#EXTINF:-1,TGRT Belgesel
+http://htq.brasilia.me/iptv/ch2310?code={YOUR_CODE}
+#EXTINF:-1,Mesaj TV
+http://htq.brasilia.me/iptv/ch2331?code={YOUR_CODE}
+#EXTINF:-1,Meltem Tv
+http://htq.brasilia.me/iptv/ch2332?code={YOUR_CODE}
+#EXTINF:-1,Kanal A
+http://htq.brasilia.me/iptv/ch2334?code={YOUR_CODE}
+#EXTINF:-1,Kanal 7
+http://htq.brasilia.me/iptv/ch2335?code={YOUR_CODE}
+#EXTINF:-1,IZ Tv HD
+http://htq.brasilia.me/iptv/ch2336?code={YOUR_CODE}
+#EXTINF:-1,Halk TV
+http://htq.brasilia.me/iptv/ch2337?code={YOUR_CODE}
+#EXTINF:-1,Flash Tv
+http://htq.brasilia.me/iptv/ch2339?code={YOUR_CODE}
+#EXTINF:-1,Fil Tv TR
+http://htq.brasilia.me/iptv/ch2363?code={YOUR_CODE}
+#EXTINF:-1,Ege Tv
+http://htq.brasilia.me/iptv/ch2340?code={YOUR_CODE}
+#EXTINF:-1,Cem Tv
+http://htq.brasilia.me/iptv/ch2345?code={YOUR_CODE}
+#EXTINF:-1,Blomberg-tv
+http://htq.brasilia.me/iptv/ch2346?code={YOUR_CODE}
+#EXTINF:-1,benguturk
+http://htq.brasilia.me/iptv/ch2348?code={YOUR_CODE}
+#EXTINF:-1,Vatan Tv
+http://htq.brasilia.me/iptv/ch2300?code={YOUR_CODE}
+#EXTINF:-1,Kral Tv TR
+http://htq.brasilia.me/iptv/ch2364?code={YOUR_CODE}
+#EXTINF:-1,Kral Pop TR
+http://htq.brasilia.me/iptv/ch2365?code={YOUR_CODE}
+#EXTINF:-1,Sport Tv TR
+http://htq.brasilia.me/iptv/ch2366?code={YOUR_CODE}
+#EXTINF:-1,Sivas Srt TR
+http://htq.brasilia.me/iptv/ch2367?code={YOUR_CODE}
+#EXTINF:-1,Seymen Tv TR
+http://htq.brasilia.me/iptv/ch2368?code={YOUR_CODE}
+#EXTINF:-1,Kanalcay TR
+http://htq.brasilia.me/iptv/ch2369?code={YOUR_CODE}
+#EXTINF:-1,EM TV TR
+http://htq.brasilia.me/iptv/ch2370?code={YOUR_CODE}
+#EXTINF:-1,Baby Tv TR
+http://htq.brasilia.me/iptv/ch2371?code={YOUR_CODE}
+#EXTINF:-1,Aksaray Kanal 68 TR
+http://htq.brasilia.me/iptv/ch2372?code={YOUR_CODE}
+#EXTINF:-1,Aksaray ART TR
+http://htq.brasilia.me/iptv/ch2373?code={YOUR_CODE}
+#EXTINF:-1,TRT World TR
+http://htq.brasilia.me/iptv/ch2374?code={YOUR_CODE}
+#EXTINF:-1,Aspor HD
+http://htq.brasilia.me/iptv/ch2350?code={YOUR_CODE}
+#EXTINF:-1,SKY 360
+http://htq.brasilia.me/iptv/ch1384?code={YOUR_CODE}
+#EXTINF:-1,Semerkand TV
+http://htq.brasilia.me/iptv/ch2315?code={YOUR_CODE}
+#EXTINF:-1,Samanyolu
+http://htq.brasilia.me/iptv/ch2316?code={YOUR_CODE}
+#EXTINF:-1,Dream Türk
+http://htq.brasilia.me/iptv/ch2341?code={YOUR_CODE}
+#EXTINF:-1,PowerTurk HD
+http://htq.brasilia.me/iptv/ch2317?code={YOUR_CODE}
+#EXTINF:-1,Power Tv HD
+http://htq.brasilia.me/iptv/ch2318?code={YOUR_CODE}
+#EXTINF:-1,Minika Cocuk
+http://htq.brasilia.me/iptv/ch2329?code={YOUR_CODE}
+#EXTINF:-1,Mini Go
+http://htq.brasilia.me/iptv/ch2330?code={YOUR_CODE}
+#EXTINF:-1,Minika Go Tr
+http://htq.brasilia.me/iptv/ch2375?code={YOUR_CODE}
+#EXTINF:-1,Minika Cokuk TR
+http://htq.brasilia.me/iptv/ch2376?code={YOUR_CODE}
+#EXTINF:-1,Planet TR
+http://htq.brasilia.me/iptv/ch2319?code={YOUR_CODE}
+#EXTINF:-1,Planet Pembe
+http://htq.brasilia.me/iptv/ch2320?code={YOUR_CODE}
+#EXTINF:-1,Planet Mutfak
+http://htq.brasilia.me/iptv/ch2321?code={YOUR_CODE}
+#EXTINF:-1,Planet Cocuk
+http://htq.brasilia.me/iptv/ch2322?code={YOUR_CODE}
+#EXTINF:-1,Discovery Science HD
+http://htq.brasilia.me/iptv/ch2342?code={YOUR_CODE}
+#EXTINF:-1,Discovery HD TR
+http://htq.brasilia.me/iptv/ch2343?code={YOUR_CODE}
+#EXTINF:-1,Nat. Geo. HD Tü
+http://htq.brasilia.me/iptv/ch2327?code={YOUR_CODE}
+#EXTINF:-1,Nat. Geo. Wild TR
+http://htq.brasilia.me/iptv/ch2357?code={YOUR_CODE}
+#EXTINF:-1,MMX Türk HD
+http://htq.brasilia.me/iptv/ch2328?code={YOUR_CODE}
+#EXTINF:-1,Sinema TV 2
+http://htq.brasilia.me/iptv/ch2312?code={YOUR_CODE}
+#EXTINF:-1,Sinema TV
+http://htq.brasilia.me/iptv/ch2313?code={YOUR_CODE}
+#EXTINF:-1,Turmeneli TV
+http://htq.brasilia.me/iptv/ch174?code={YOUR_CODE}
+#EXTINF:-1,Turk Mania
+http://htq.brasilia.me/iptv/ch835?code={YOUR_CODE}
+#EXTINF:-1,TRT Dizi TV Tr
+http://htq.brasilia.me/iptv/ch2377?code={YOUR_CODE}
+#EXTINF:-1,Tryesil Cam Tr
+http://htq.brasilia.me/iptv/ch2378?code={YOUR_CODE}
+#EXTINF:-1,Sine Tv TR
+http://htq.brasilia.me/iptv/ch2379?code={YOUR_CODE}
+#EXTINF:-1,VIP Turk TR
+http://htq.brasilia.me/iptv/ch2380?code={YOUR_CODE}
+#EXTINF:-1,VIP Yesilcam TR
+http://htq.brasilia.me/iptv/ch2381?code={YOUR_CODE}
+#EXTINF:-1,VIP Yesilcam 2 TR
+http://htq.brasilia.me/iptv/ch2382?code={YOUR_CODE}
+#EXTINF:-1,Viasat Nature TR
+http://htq.brasilia.me/iptv/ch2383?code={YOUR_CODE}
+#EXTINF:-1,Sinema Tvaksiyon_tr
+http://htq.brasilia.me/iptv/ch2384?code={YOUR_CODE}
+#EXTINF:-1,Movie Smart Prem. TR
+http://htq.brasilia.me/iptv/ch2386?code={YOUR_CODE}
+#EXTINF:-1,Movie Smart TR
+http://htq.brasilia.me/iptv/ch2387?code={YOUR_CODE}
+#EXTINF:-1,Movie Smart Prem. 2
+http://htq.brasilia.me/iptv/ch2388?code={YOUR_CODE}
+#EXTINF:-1,Movie Smart Gold TR
+http://htq.brasilia.me/iptv/ch2389?code={YOUR_CODE}
+#EXTINF:-1,GS TV TR
+http://htq.brasilia.me/iptv/ch2390?code={YOUR_CODE}
+#EXTINF:-1,Dizi Premium TR
+http://htq.brasilia.me/iptv/ch2391?code={YOUR_CODE}
+#EXTINF:-1,BBC Earth TR
+http://htq.brasilia.me/iptv/ch2392?code={YOUR_CODE}
+#EXTINF:-1,Animal Planet TR
+http://htq.brasilia.me/iptv/ch2393?code={YOUR_CODE}
+#EXTINF:-1,Sine Tivibu TR
+http://htq.brasilia.me/iptv/ch2385?code={YOUR_CODE}
+#EXTINF:-1,Salon 1
+http://htq.brasilia.me/iptv/ch1350?code={YOUR_CODE}
+#EXTINF:-1,Salon 2
+http://htq.brasilia.me/iptv/ch1351?code={YOUR_CODE}
+#EXTINF:-1,Salon 3
+http://htq.brasilia.me/iptv/ch1352?code={YOUR_CODE}
+#EXTINF:-1,Loca 1
+http://htq.brasilia.me/iptv/ch2358?code={YOUR_CODE}
+#EXTINF:-1,Loca 2
+http://htq.brasilia.me/iptv/ch2359?code={YOUR_CODE}
+#EXTINF:-1,Loca 3
+http://htq.brasilia.me/iptv/ch2360?code={YOUR_CODE}
+#EXTINF:-1,Lig TV 1
+http://htq.brasilia.me/iptv/ch1353?code={YOUR_CODE}
+#EXTINF:-1,Lig Tv 2
+http://htq.brasilia.me/iptv/ch2355?code={YOUR_CODE}
+#EXTINF:-1,Lig Tv 3
+http://htq.brasilia.me/iptv/ch2356?code={YOUR_CODE}
+#EXTINF:-1,Tivibu Sport 1
+http://htq.brasilia.me/iptv/ch2361?code={YOUR_CODE}
+#EXTINF:-1,Tivibu Sport 2
+http://htq.brasilia.me/iptv/ch2362?code={YOUR_CODE}
+#EXTINF:-1,Smart Sport 1
+http://htq.brasilia.me/iptv/ch1355?code={YOUR_CODE}
+#EXTINF:-1,Smart Sport 2
+http://htq.brasilia.me/iptv/ch1356?code={YOUR_CODE}
+#EXTINF:-1 group-title="Al Majd",Almajd Sciences
+http://htq.brasilia.me/iptv/ch704?code={YOUR_CODE}
+#EXTINF:-1,Al Majd Quran
+http://htq.brasilia.me/iptv/ch710?code={YOUR_CODE}
+#EXTINF:-1,Al Majd Kids
+http://htq.brasilia.me/iptv/ch176?code={YOUR_CODE}
+#EXTINF:-1,Al Majd Hadeeth
+http://htq.brasilia.me/iptv/ch125?code={YOUR_CODE}
+#EXTINF:-1,Al Majd TV
+http://htq.brasilia.me/iptv/ch720?code={YOUR_CODE}
+#EXTINF:-1 group-title="Mouritanie",Mouritania
+http://htq.brasilia.me/iptv/ch171?code={YOUR_CODE}
+#EXTINF:-1,Mouritania 2
+http://htq.brasilia.me/iptv/ch633?code={YOUR_CODE}
+#EXTINF:-1,Watania Mouritania
+http://htq.brasilia.me/iptv/ch632?code={YOUR_CODE}
+#EXTINF:-1,Tawazon Tv
+http://htq.brasilia.me/iptv/ch631?code={YOUR_CODE}
+#EXTINF:-1,Al Mourabitoune
+http://htq.brasilia.me/iptv/ch630?code={YOUR_CODE}
+#EXTINF:-1,Chinguit TV Mouritan
+http://htq.brasilia.me/iptv/ch838?code={YOUR_CODE}
+#EXTINF:-1,Dava TV Mouritanie
+http://htq.brasilia.me/iptv/ch1032?code={YOUR_CODE}
+#EXTINF:-1,El Mahadra Mouritani
+http://htq.brasilia.me/iptv/ch711?code={YOUR_CODE}
+#EXTINF:-1,Sahel TV
+http://htq.brasilia.me/iptv/ch158?code={YOUR_CODE}
+#EXTINF:-1 group-title="Soudan",Soudan drama
+http://htq.brasilia.me/iptv/ch1035?code={YOUR_CODE}
+#EXTINF:-1,Khaer Soudan
+http://htq.brasilia.me/iptv/ch1037?code={YOUR_CODE}
+#EXTINF:-1,Chourouk Sudan
+http://htq.brasilia.me/iptv/ch471?code={YOUR_CODE}
+#EXTINF:-1,Tanasuh TV
+http://htq.brasilia.me/iptv/ch1029?code={YOUR_CODE}
+#EXTINF:-1,Neelain TV
+http://htq.brasilia.me/iptv/ch1028?code={YOUR_CODE}
+#EXTINF:-1,Africa 1
+http://htq.brasilia.me/iptv/ch1024?code={YOUR_CODE}
+#EXTINF:-1,Africa 2
+http://htq.brasilia.me/iptv/ch1025?code={YOUR_CODE}
+#EXTINF:-1,Africa 3
+http://htq.brasilia.me/iptv/ch1026?code={YOUR_CODE}
+#EXTINF:-1,Africa 4
+http://htq.brasilia.me/iptv/ch1027?code={YOUR_CODE}
+#EXTINF:-1,Blue Nile tv
+http://htq.brasilia.me/iptv/ch149?code={YOUR_CODE}
+#EXTINF:-1,Sudan TV
+http://htq.brasilia.me/iptv/ch713?code={YOUR_CODE}
+#EXTINF:-1 group-title="Armenia",Armenia 1
+http://htq.brasilia.me/iptv/ch1370?code={YOUR_CODE}
+#EXTINF:-1,Armenia 2
+http://htq.brasilia.me/iptv/ch1371?code={YOUR_CODE}
+#EXTINF:-1,Persian Star
+http://htq.brasilia.me/iptv/ch1373?code={YOUR_CODE}
+#EXTINF:-1,Persian Star 2
+http://htq.brasilia.me/iptv/ch1374?code={YOUR_CODE}
+#EXTINF:-1,Kentron Tv
+http://htq.brasilia.me/iptv/ch1372?code={YOUR_CODE}
+#EXTINF:-1 group-title="Asia/Hindi",B4U Movies
+http://htq.brasilia.me/iptv/ch1733?code={YOUR_CODE}
+#EXTINF:-1,B4U Music
+http://htq.brasilia.me/iptv/ch1732?code={YOUR_CODE}
+#EXTINF:-1,Sony Ent. TV Asia
+http://htq.brasilia.me/iptv/ch1701?code={YOUR_CODE}
+#EXTINF:-1,Sony Ent. Max Asia
+http://htq.brasilia.me/iptv/ch1702?code={YOUR_CODE}
+#EXTINF:-1,Star Life ok
+http://htq.brasilia.me/iptv/ch1703?code={YOUR_CODE}
+#EXTINF:-1,Star Gold
+http://htq.brasilia.me/iptv/ch1704?code={YOUR_CODE}
+#EXTINF:-1,Star Jalsha
+http://htq.brasilia.me/iptv/ch1705?code={YOUR_CODE}
+#EXTINF:-1,Star Plus
+http://htq.brasilia.me/iptv/ch1706?code={YOUR_CODE}
+#EXTINF:-1,Zee Punjabi
+http://htq.brasilia.me/iptv/ch1707?code={YOUR_CODE}
+#EXTINF:-1,Zee Cinema
+http://htq.brasilia.me/iptv/ch1708?code={YOUR_CODE}
+#EXTINF:-1,Zee TV
+http://htq.brasilia.me/iptv/ch1709?code={YOUR_CODE}
+#EXTINF:-1,Ary digital
+http://htq.brasilia.me/iptv/ch1710?code={YOUR_CODE}
+#EXTINF:-1,Geo Tez
+http://htq.brasilia.me/iptv/ch1711?code={YOUR_CODE}
+#EXTINF:-1,Geo TV
+http://htq.brasilia.me/iptv/ch1712?code={YOUR_CODE}
+#EXTINF:-1,Geo News
+http://htq.brasilia.me/iptv/ch1713?code={YOUR_CODE}
+#EXTINF:-1,Noor Asia
+http://htq.brasilia.me/iptv/ch1748?code={YOUR_CODE}
+#EXTINF:-1,TV99
+http://htq.brasilia.me/iptv/ch1747?code={YOUR_CODE}
+#EXTINF:-1,Ummah Asia
+http://htq.brasilia.me/iptv/ch1746?code={YOUR_CODE}
+#EXTINF:-1,Takbeer
+http://htq.brasilia.me/iptv/ch1745?code={YOUR_CODE}
+#EXTINF:-1,Madani Asia
+http://htq.brasilia.me/iptv/ch1744?code={YOUR_CODE}
+#EXTINF:-1,Brit TV Asia
+http://htq.brasilia.me/iptv/ch1743?code={YOUR_CODE}
+#EXTINF:-1,MATV Asia
+http://htq.brasilia.me/iptv/ch1742?code={YOUR_CODE}
+#EXTINF:-1,News18 Asia
+http://htq.brasilia.me/iptv/ch1741?code={YOUR_CODE}
+#EXTINF:-1,Ary News
+http://htq.brasilia.me/iptv/ch1740?code={YOUR_CODE}
+#EXTINF:-1,Time now
+http://htq.brasilia.me/iptv/ch1714?code={YOUR_CODE}
+#EXTINF:-1,Colors
+http://htq.brasilia.me/iptv/ch1041?code={YOUR_CODE}
+#EXTINF:-1,ABP news
+http://htq.brasilia.me/iptv/ch1715?code={YOUR_CODE}
+#EXTINF:-1,Aajtak
+http://htq.brasilia.me/iptv/ch1716?code={YOUR_CODE}
+#EXTINF:-1,SAB TV
+http://htq.brasilia.me/iptv/ch1717?code={YOUR_CODE}
+#EXTINF:-1,PTV Punjabi
+http://htq.brasilia.me/iptv/ch1718?code={YOUR_CODE}
+#EXTINF:-1,NDTV 24-7
+http://htq.brasilia.me/iptv/ch1719?code={YOUR_CODE}
+#EXTINF:-1,Aasth TV
+http://htq.brasilia.me/iptv/ch1720?code={YOUR_CODE}
+#EXTINF:-1,Channel I
+http://htq.brasilia.me/iptv/ch1721?code={YOUR_CODE}
+#EXTINF:-1,Iqra bangla
+http://htq.brasilia.me/iptv/ch1722?code={YOUR_CODE}
+#EXTINF:-1,Venus
+http://htq.brasilia.me/iptv/ch1723?code={YOUR_CODE}
+#EXTINF:-1,Samaa TV
+http://htq.brasilia.me/iptv/ch1724?code={YOUR_CODE}
+#EXTINF:-1,PTV Prime
+http://htq.brasilia.me/iptv/ch1725?code={YOUR_CODE}
+#EXTINF:-1,PTV Global
+http://htq.brasilia.me/iptv/ch1726?code={YOUR_CODE}
+#EXTINF:-1,Zing
+http://htq.brasilia.me/iptv/ch1727?code={YOUR_CODE}
+#EXTINF:-1,NTV
+http://htq.brasilia.me/iptv/ch1728?code={YOUR_CODE}
+#EXTINF:-1,DM Digital
+http://htq.brasilia.me/iptv/ch1729?code={YOUR_CODE}
+#EXTINF:-1,UMP Movies
+http://htq.brasilia.me/iptv/ch1730?code={YOUR_CODE}
+#EXTINF:-1,Ariana Afgan
+http://htq.brasilia.me/iptv/ch1749?code={YOUR_CODE}
+#EXTINF:-1,Payam e Afgan
+http://htq.brasilia.me/iptv/ch1750?code={YOUR_CODE}
+#EXTINF:-1,CCTV news
+http://htq.brasilia.me/iptv/ch1731?code={YOUR_CODE}
+#EXTINF:-1 group-title="Portugal",RTP 1 PT
+http://htq.brasilia.me/iptv/ch2100?code={YOUR_CODE}
+#EXTINF:-1,RTP 2 PT
+http://htq.brasilia.me/iptv/ch2101?code={YOUR_CODE}
+#EXTINF:-1,RTP 3 PT
+http://htq.brasilia.me/iptv/ch2102?code={YOUR_CODE}
+#EXTINF:-1,RTP Memoria PT
+http://htq.brasilia.me/iptv/ch2103?code={YOUR_CODE}
+#EXTINF:-1,SIC PT
+http://htq.brasilia.me/iptv/ch2105?code={YOUR_CODE}
+#EXTINF:-1,SIC Noticias PT
+http://htq.brasilia.me/iptv/ch2106?code={YOUR_CODE}
+#EXTINF:-1,SIC Mulher PT
+http://htq.brasilia.me/iptv/ch2107?code={YOUR_CODE}
+#EXTINF:-1,SIC Kids PT
+http://htq.brasilia.me/iptv/ch2108?code={YOUR_CODE}
+#EXTINF:-1,SIC Radical PT
+http://htq.brasilia.me/iptv/ch2109?code={YOUR_CODE}
+#EXTINF:-1,SIC Caras PT
+http://htq.brasilia.me/iptv/ch2110?code={YOUR_CODE}
+#EXTINF:-1,TVI PT
+http://htq.brasilia.me/iptv/ch2111?code={YOUR_CODE}
+#EXTINF:-1,TVI Reality PT
+http://htq.brasilia.me/iptv/ch2112?code={YOUR_CODE}
+#EXTINF:-1,TVI Ficcao PT
+http://htq.brasilia.me/iptv/ch2113?code={YOUR_CODE}
+#EXTINF:-1,TVI 24 PT
+http://htq.brasilia.me/iptv/ch2114?code={YOUR_CODE}
+#EXTINF:-1,Canal Hollywood PT
+http://htq.brasilia.me/iptv/ch2116?code={YOUR_CODE}
+#EXTINF:-1,Canal Cinemondo PT
+http://htq.brasilia.me/iptv/ch2117?code={YOUR_CODE}
+#EXTINF:-1,TV Cine 1 PT
+http://htq.brasilia.me/iptv/ch2118?code={YOUR_CODE}
+#EXTINF:-1,TV Cine 2 PT
+http://htq.brasilia.me/iptv/ch2119?code={YOUR_CODE}
+#EXTINF:-1,TV Cine 3 PT
+http://htq.brasilia.me/iptv/ch2120?code={YOUR_CODE}
+#EXTINF:-1,TV Cine 4 PT
+http://htq.brasilia.me/iptv/ch2121?code={YOUR_CODE}
+#EXTINF:-1,TV Series PT
+http://htq.brasilia.me/iptv/ch2122?code={YOUR_CODE}
+#EXTINF:-1,Sport TV 1 PT
+http://htq.brasilia.me/iptv/ch2123?code={YOUR_CODE}
+#EXTINF:-1,Sport TV 2 PT
+http://htq.brasilia.me/iptv/ch2124?code={YOUR_CODE}
+#EXTINF:-1,Sport TV 3 PT
+http://htq.brasilia.me/iptv/ch2125?code={YOUR_CODE}
+#EXTINF:-1,Sport TV 4 PT
+http://htq.brasilia.me/iptv/ch2126?code={YOUR_CODE}
+#EXTINF:-1,Sport TV 5 PT
+http://htq.brasilia.me/iptv/ch2127?code={YOUR_CODE}
+#EXTINF:-1,Eurosport 1 PT
+http://htq.brasilia.me/iptv/ch2128?code={YOUR_CODE}
+#EXTINF:-1,Eurosport 2 PT
+http://htq.brasilia.me/iptv/ch2129?code={YOUR_CODE}
+#EXTINF:-1,Toros TV PT
+http://htq.brasilia.me/iptv/ch2130?code={YOUR_CODE}
+#EXTINF:-1,TV Globo PT
+http://htq.brasilia.me/iptv/ch2131?code={YOUR_CODE}
+#EXTINF:-1,TV Record PT
+http://htq.brasilia.me/iptv/ch2133?code={YOUR_CODE}
+#EXTINF:-1,MOV TV PT
+http://htq.brasilia.me/iptv/ch2134?code={YOUR_CODE}
+#EXTINF:-1,Record News PT
+http://htq.brasilia.me/iptv/ch2135?code={YOUR_CODE}
+#EXTINF:-1,PFC PT
+http://htq.brasilia.me/iptv/ch2136?code={YOUR_CODE}
+#EXTINF:-1,Odisseia PT
+http://htq.brasilia.me/iptv/ch2138?code={YOUR_CODE}
+#EXTINF:-1,Fox Movies PT
+http://htq.brasilia.me/iptv/ch2141?code={YOUR_CODE}
+#EXTINF:-1,Fox Comedy PT
+http://htq.brasilia.me/iptv/ch2143?code={YOUR_CODE}
+#EXTINF:-1,CM TV PT
+http://htq.brasilia.me/iptv/ch2144?code={YOUR_CODE}
+#EXTINF:-1,Cacapesca PT
+http://htq.brasilia.me/iptv/ch2145?code={YOUR_CODE}
+#EXTINF:-1,Discovery PT
+http://htq.brasilia.me/iptv/ch2146?code={YOUR_CODE}
+#EXTINF:-1,Nat. Geo. PT
+http://htq.brasilia.me/iptv/ch2148?code={YOUR_CODE}
+#EXTINF:-1,Cazavision PT
+http://htq.brasilia.me/iptv/ch2149?code={YOUR_CODE}
+#EXTINF:-1,Cancao Nova PT
+http://htq.brasilia.me/iptv/ch2150?code={YOUR_CODE}
+#EXTINF:-1,Abola TV PT
+http://htq.brasilia.me/iptv/ch2157?code={YOUR_CODE}
+#EXTINF:-1,Cartoon Network PT
+http://htq.brasilia.me/iptv/ch2160?code={YOUR_CODE}
+#EXTINF:-1,Disney Ch. PT
+http://htq.brasilia.me/iptv/ch2161?code={YOUR_CODE}
+#EXTINF:-1,Disney Junior PT
+http://htq.brasilia.me/iptv/ch2162?code={YOUR_CODE}
+#EXTINF:-1,Nickelodeon PT
+http://htq.brasilia.me/iptv/ch2139?code={YOUR_CODE}
