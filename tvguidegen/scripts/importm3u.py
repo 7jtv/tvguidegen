@@ -23,6 +23,6 @@ extractor = Exractor("data/m3u/list.m3u.sample")
 try:
     from db_settings import MONGO_DATABASE,MONGO_URI
 except:
-    MONGO_URI = '127.0.0.1:27017'
+    MONGO_URI = 'mongo001'
     MONGO_DATABASE = 'tvguide'
 ImportM3uChannels(MONGO_URI,MONGO_DATABASE).importM3u(extractor.extract())
