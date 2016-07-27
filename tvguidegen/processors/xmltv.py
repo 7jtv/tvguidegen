@@ -1,37 +1,75 @@
 # -*- coding: utf-8 -*-
 
-import pymongo
 from lxml import etree
 
-class GenerateXmltv(object):
+class Export(object):
 
-    collection_name = 'channels_fr'
-    m3uChannels = None
-    channels = None
-    def __init__(self, mongo_uri, mongo_db):
-        self.mongo_uri = mongo_uri
-        self.mongo_db = mongo_db
-        self.client = pymongo.MongoClient(self.mongo_uri)
-        self.db = self.client[self.mongo_db]
+    def __init__(self,channels,m3uChannels=None):
+        self.channels = channels
+        self.m3uChannels = m3uChannels
 
+    def run(self,filename="data/xmltv/all.xml",output=False,prettyXml=False):
+        # create XML
+        tv = etree.Element('tv')
+        tv.set("generator-info-name", "Kas-IPTV generator")
 
-    def getChannels(self):
-        if self.channels is None:
-            #self.channels = self.db[self.collection_name].find({'name': {"$regex": '.*13EME.*'}})
-            self.channels = self.db[self.collection_name].find()
-        return self.channels
+        channels = self.channels
 
-    def getM3uChannels(self):
-        if self.m3uChannels is None:
-            self.m3uChannels = list(self.db['channels_m3u'].find())
-        return self.m3uChannels
-
-    def output(self):
-        channels = self.getChannels()
+        #for n in self.m3uNames:
+        #    print "m3uName: %s" % (n['name'].encode('UTF-8'))
         for channel in channels:
-            print "Channel: %s" %  (channel['name'])
-            for guide in channel['guide']:
-                print "\t%s %s %s" % (guide['date'].encode('utf-8'), guide['datetime'].encode('utf-8'), guide['title'].encode('utf-8'))
+            ch = etree.Element('channel')
+            ch.set('id', channel['slug'])
+
+            display_name_variations = self.display_name_variations(channel,True)
+            for dnv in display_name_variations:
+                display_name = etree.Element('display-name')
+                display_name.text = dnv
+                ch.append(display_name)
+
+
+            icon = etree.Element('icon')
+            icon.set('src',channel['logo'])
+            ch.append(icon)
+
+            tv.append(ch)
+
+            l_prog = len(channel['guide'])
+            for idx_prog, prog in enumerate(channel['guide']):
+
+                stop = ''
+                if idx_prog < (l_prog - 1):
+                    stop =  channel['guide'][idx_prog + 1]['datetime']
+
+                programme = etree.Element('programme')
+                programme.set('start',prog['datetime'])
+                programme.set('stop',stop)
+                programme.set('channel',channel['slug'])
+
+                title = etree.Element('title')
+                title.text = prog['title']
+                programme.append(title)
+
+                country = etree.Element('country')
+                country.text = channel['country']
+
+                date = etree.Element('date')
+                date.text = prog['date']
+                programme.append(date)
+
+                tv.append(programme)
+
+        s = etree.tostring(tv,xml_declaration=True,encoding='UTf-8', doctype="<!DOCTYPE tv SYSTEM \"xmltv.dtd\">",pretty_print=prettyXml)
+
+        if filename: self.write(s)
+        if output: print s
+        return s
+
+    def write(self,s,filename='all.xml'):
+        # pretty string
+        f = open(filename, 'w')
+        f.write(s)
+        f.close()
 
     def display_name_variations(self,channel,addOriginalName=False):
 
@@ -109,7 +147,7 @@ class GenerateXmltv(object):
 
         if addOriginalName : variations.append(original_name)
 
-        for ch in self.getM3uChannels():
+        for ch in self.m3uChannels:
             if ch['name'] in variations:
                 print "*********** M3u name FOUND on variations *********** ====> ++++ %s ++++" % (ch['name'].encode('UTF-8'))
                 return [ch['name']] # Return only name found in m3u
@@ -118,71 +156,3 @@ class GenerateXmltv(object):
                 return [ch['name']]
 
         return variations
-
-
-
-    def generate(self):
-        # create XML
-        tv = etree.Element('tv')
-        tv.set("generator-info-name", "Kas-IPTV generator")
-
-        channels = self.getChannels()
-
-        #for n in self.m3uNames:
-        #    print "m3uName: %s" % (n['name'].encode('UTF-8'))
-        for channel in channels:
-            ch = etree.Element('channel')
-            ch.set('id', channel['slug'])
-
-            display_name_variations = self.display_name_variations(channel,True)
-            for dnv in display_name_variations:
-                display_name = etree.Element('display-name')
-                display_name.text = dnv
-                ch.append(display_name)
-
-
-            icon = etree.Element('icon')
-            icon.set('src',channel['logo'])
-            ch.append(icon)
-
-            tv.append(ch)
-
-            l_prog = len(channel['guide'])
-            for idx_prog, prog in enumerate(channel['guide']):
-
-                stop = ''
-                if idx_prog < (l_prog - 1):
-                    stop =  channel['guide'][idx_prog + 1]['datetime']
-
-                programme = etree.Element('programme')
-                programme.set('start',prog['datetime'])
-                programme.set('stop',stop)
-                programme.set('channel',channel['slug'])
-
-                title = etree.Element('title')
-                title.text = prog['title']
-                programme.append(title)
-
-                country = etree.Element('country')
-                country.text = channel['country']
-
-                date = etree.Element('date')
-                date.text = prog['date']
-                programme.append(date)
-
-                tv.append(programme)
-
-        # pretty string
-        s = etree.tostring(tv,xml_declaration=True,encoding='UTf-8', doctype="<!DOCTYPE tv SYSTEM \"xmltv.dtd\">",pretty_print=False)
-        f = open('data/xmltv_canalsat.xml', 'w')
-        f.write(s)
-        f.close()
-
-        #print s
-try:
-    from db_settings import MONGO_DATABASE,MONGO_URI
-except:
-    MONGO_URI = '127.0.0.1:27017'
-    MONGO_DATABASE = 'tvguide'
-g = GenerateXmltv(MONGO_URI,MONGO_DATABASE)
-g.generate()

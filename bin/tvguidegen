@@ -1,0 +1,23 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+""" Script XMLTV generator """
+
+from tvguidegen.model import collections
+import tvguidegen.processors.xmltv
+
+
+try:
+    channels = collections.Channels().getCollection()
+    m3uChannels = collections.M3uChannels().getCollection()
+except Exception as e:
+    print "Error Type {0}".format(type(e))
+    print("Error: {0}".format(e))
+    print e
+
+try:
+    filename = '/var/www/html/xmltv.xml'
+    xmltv.Export(channels,m3uChannels).run(filename=filename)
+except Exception as e:
+    print "Error Type {0}".format(type(e))
+    print("Error: {0}".format(e))
