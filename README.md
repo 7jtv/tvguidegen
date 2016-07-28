@@ -2,6 +2,21 @@
 
 Python script used to generate tv guide in many formats
 
+## Requirement
++ Python 2.7
++ pip ans setuptools
++ lxml
+
+## Installation
+
+The installation steps assume that you have the following things installed:
++ Python 2.7
++ pip and setuptools Python packages. Nowadays pip requires and installs setuptools if not installed. Python 2.7.9 and later include pip by default, so you may have it already.
++ lxml. Most Linux distributions ships prepackaged versions of lxml. Otherwise refer to http://lxml.de/installation.html
+
+You can install Tvguidegen using pip (which is the canonical way to install Python packages). To install using pip run:
+
+`pip install tvguidegen`
 
 ## Supported Formats
 + [XMLTV](http://wiki.xmltv.org/index.php/XMLTVProject) format. see [DTD](http://xmltv.cvs.sourceforge.net/viewvc/xmltv/xmltv/xmltv.dtd).

@@ -76,7 +76,7 @@ def generate(outputfile,channels_src,m3uChannels_src=None,mongodb_uri=None,mongo
 
         try:
             if verbose: print "Find channels from %s mongodb collection" % (channels_src)
-            channels = model.collections.Channels(channels_src,mongodb_uri,mongodb_db).getCollection()
+            channels = collections.Channels(channels_src,mongodb_uri,mongodb_db).getCollection()
             if limit: channels.limit(limit)
             channels = list(channels)
             if verbose: print "%d channels found from your guide source" % (len(channels))
@@ -84,7 +84,7 @@ def generate(outputfile,channels_src,m3uChannels_src=None,mongodb_uri=None,mongo
 
             if m3uChannels_src:
                 if verbose and m3uChannels_src: print "Find channels from %s mongodb collection" % (m3uChannels_src)
-                m3uChannels = model.collections.M3uChannels(m3uChannels_src,mongodb_uri,mongodb_db).getCollection()
+                m3uChannels = collections.M3uChannels(m3uChannels_src,mongodb_uri,mongodb_db).getCollection()
                 m3uchannels = list(m3uChannels)
                 if verbose: print "%d channels found from your m3u playlist source" % (len(m3uChannels))
 

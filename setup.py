@@ -1,7 +1,7 @@
 from setuptools import setup,find_packages
 
 setup(name='tvguidegen',
-      version='0.1.3',
+      version='0.1.4',
       description='TV Guide Generator',
       url='https://github.com/7jtv/tvguidegen',
       author='Kas IPTV',
@@ -12,6 +12,7 @@ setup(name='tvguidegen',
       include_package_data=True,
       install_requires=[
           'pymongo',
+          'lxml'
       ],
       long_description = open("README.md").read(),
       zip_safe=False
