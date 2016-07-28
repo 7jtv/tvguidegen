@@ -61,7 +61,7 @@ class Export(object):
 
         s = etree.tostring(tv,xml_declaration=True,encoding='UTf-8', doctype="<!DOCTYPE tv SYSTEM \"xmltv.dtd\">",pretty_print=prettyXml)
 
-        if filename: self.write(s)
+        if filename: self.write(s,filename=filename)
         if output: print s
         return s
 
