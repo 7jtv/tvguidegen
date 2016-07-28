@@ -15,7 +15,7 @@ Python script used to generate tv guide in many formats
 
 + With mongodb collection source:
 
-  `~# tvguidegen -o <outputfile> -c channels_collection --m3uchannels=m3uCahnnels_collection --host=localhost --db=tvguide --limit=50`
+  `~# tvguidegen -o <outputfile> -c channels_collection --m3uchannels=m3uCahnnels_collection --mongodb-uri=localhost --mongodb-db=tvguide --limit=50`
 
 ### Command Line Arguments
 ```
@@ -27,11 +27,11 @@ Python script used to generate tv guide in many formats
 --m3uchannels     Filename path with your channels names (Eg. From m3u playlist) in JSON format
                   or a Mongodb collection name.(Optionnal)
 
---host            Mongodb HOST URI.(Optionnal)
+--mongodb-uri     Mongodb HOST URI.(Optionnal)
                   If is set,--channels and --m3u-channels are selected from Mongodb\s collections
                   Default: 127.0.0.1
 
---db              Mongodb DATABASE Name. (Optionnal)
+--mongodb-db      Mongodb DATABASE Name. (Optionnal)
                   Default: tvguide
 
 -l, --limit       Limit channels to generate. (Optionnal)

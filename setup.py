@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup,find_packages
 
 setup(name='tvguidegen',
       version='0.1.1',
@@ -7,7 +7,7 @@ setup(name='tvguidegen',
       author='Kas IPTV',
       author_email='kas.iptv@gmail.com',
       license='MIT',
-      packages=['tvguidegen'],
+      packages=find_packages(exclude=('data', 'tests*')),
       scripts=['bin/tvguidegen'],
       install_requires=[
           'pymongo',

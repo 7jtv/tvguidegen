@@ -15,7 +15,7 @@ def main(argv):
     limit = None
     verbose = False
     try:
-        opts, args = getopt.getopt(argv,"hvl:o:c:",["help","m3uchannels=","output=","channels=","host=","db=","limit="])
+        opts, args = getopt.getopt(argv,"hvl:o:c:",["help","m3uchannels=","output=","channels=","mongodb-uri=","mongodb-db=","limit="])
     except getopt.GetoptError as err:
         print err
         print 'Type -h,--help for command help'
@@ -37,15 +37,17 @@ def main(argv):
             limit = int(arg)
         elif opt ==  "--m3uchannels":
             m3uChannels_src = arg
-        elif opt ==  "--host":
+        elif opt ==  "--mongodb-uri":
             mongodb_uri = arg
-        elif opt ==  "--db":
+        elif opt ==  "--mongodb-db":
             mongodb_db = arg
 
     generate(outputfile,channels_src,m3uChannels_src,mongodb_uri,mongodb_db,limit,verbose)
 
 
 def generate(outputfile,channels_src,m3uChannels_src=None,mongodb_uri=None,mongodb_db=None,limit=None,verbose=False):
+
+
     from tvguidegen.model import collections
     from tvguidegen.processors import xmltv
 
@@ -74,7 +76,7 @@ def generate(outputfile,channels_src,m3uChannels_src=None,mongodb_uri=None,mongo
 
         try:
             if verbose: print "Find channels from %s mongodb collection" % (channels_src)
-            channels = collections.Channels(channels_src,mongodb_uri,mongodb_db).getCollection()
+            channels = model.collections.Channels(channels_src,mongodb_uri,mongodb_db).getCollection()
             if limit: channels.limit(limit)
             channels = list(channels)
             if verbose: print "%d channels found from your guide source" % (len(channels))
@@ -82,7 +84,7 @@ def generate(outputfile,channels_src,m3uChannels_src=None,mongodb_uri=None,mongo
 
             if m3uChannels_src:
                 if verbose and m3uChannels_src: print "Find channels from %s mongodb collection" % (m3uChannels_src)
-                m3uChannels = collections.M3uChannels(m3uChannels_src,mongodb_uri,mongodb_db).getCollection()
+                m3uChannels = model.collections.M3uChannels(m3uChannels_src,mongodb_uri,mongodb_db).getCollection()
                 m3uchannels = list(m3uChannels)
                 if verbose: print "%d channels found from your m3u playlist source" % (len(m3uChannels))
 
@@ -137,7 +139,7 @@ def usage(exitcode=0):
     print ' *     ~# tvguidegen -o <outputfile> -c /data/tvguide.json --m3uchannels=/data/mym3uchannels.json'
     print ' *'
     print ' *   * With mongodb collection source:'
-    print ' *     ~# tvguidegen -o <outputfile> -c channels_collection --m3uchannels=m3uCahnnels_collection --host=localhost --db=tvguide --limit=50'
+    print ' *     ~# tvguidegen -o <outputfile> -c channels_collection --m3uchannels=m3uCahnnels_collection --mongodb-uri=localhost --mongodb-db=tvguide --limit=50'
     print ' *'
     print ' * -o, --output      Output filename'
     print ' *'
@@ -147,11 +149,11 @@ def usage(exitcode=0):
     print ' * --m3uchannels     Filename path with your channels names (Eg. From m3u playlist) in JSON format'
     print ' *                   or a Mongodb collection name.(Optionnal)'
     print ' *'
-    print ' * --host            Mongodb HOST URI.(Optionnal)'
+    print ' * --mongodb-uri     Mongodb HOST URI.(Optionnal)'
     print ' *                   If is set,--channels and --m3u-channels are selected from Mongodb\'s collections'
     print ' *                   Default: 127.0.0.1'
     print ' *'
-    print ' * --db              Mongodb DATABASE Name. (Optionnal) '
+    print ' * --mongodb-db      Mongodb DATABASE Name. (Optionnal) '
     print ' *                   Default: tvguide'
     print ' *'
     print ' * -l, --limit       Limit channels to generate. (Optionnal) '
