@@ -138,20 +138,16 @@ def generate(outputfile,channels_src,m3uChannels_src=None,mongodb_uri=None,mongo
 
     if  m3uChannels_src:
         if m3uChannels_src.startswith('http'):
-            m3uChannels = tools.Extractor(url=m3uChannels_src).extract()
+            m3uChannels = list(tools.Extractor(url=m3uChannels_src).extract())
         else:
-            with open(m3uChannels_src) as m3uChannels_file:
-                m3uChannels = tools.Extractor(filename=m3uChannels_src).extract()
+            m3uChannels = list(tools.Extractor(filename=m3uChannels_src).extract())
 
     try:
-        if verbose: print "Writing file %s" % (outputfile)
+        if verbose: print "Begin export..."
 
-        xmltv.Export(channels,m3uChannels).run(filename=outputfile)
+        xmltv.Export(channels,m3uChannels,verbose=verbose).run(filename=outputfile)
 
-        if verbose: print "File generated in %s" % (outputfile)
-
-        print ' '
-        print "Done. Nice Watching :-)"
+        if verbose: print "File %s generated." % (outputfile)
 
     except Exception as e:
         if verbose: raise e
