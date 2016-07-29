@@ -29,12 +29,16 @@ class Export(object):
             ch.set('id', channel['slug'])
 
             # Try exact match
+            exactMatched = False
             for idx,ex in enumerate([c['name'].upper().replace(' ','') == channel['name'].upper().replace(' ','').encode('utf-8') for c in self.m3uChannels]):
                 #print ex,idx
                 if ex:
                     if self.verbose: print "M3U channel %s name found. METHOD: Exact matching" % (self.m3uChannels[idx]['name'].encode('UTF-8'))
                     display_name_variations = [self.m3uChannels[idx]['name']]
-            else:
+                    exactMatched = True
+                    break
+
+            if not exactMatched:
                 display_name_variations = self.get_variations(channel,True)
 
             if self.verbose and len(display_name_variations) > 1 and self.m3uChannels:
