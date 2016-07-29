@@ -12,7 +12,8 @@ setup(name='tvguidegen',
       include_package_data=True,
       install_requires=[
           'pymongo',
-          'lxml'
+          'lxml',
+          'pytz'
       ],
       long_description = open("README.md").read(),
       zip_safe=False

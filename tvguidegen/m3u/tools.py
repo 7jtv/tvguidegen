@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-class Exractor(object):
+class Extractor(object):
 
     lines = []
 
