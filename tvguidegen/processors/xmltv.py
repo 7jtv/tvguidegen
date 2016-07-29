@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
 from lxml import etree
+from pytz import timezone
+from pytz import utc
 
 class Export(object):
 
@@ -18,6 +20,7 @@ class Export(object):
         #for n in self.m3uNames:
         #    print "m3uName: %s" % (n['name'].encode('UTF-8'))
         for channel in channels:
+            tz = timezone(channel['timezone'])
             ch = etree.Element('channel')
             ch.set('id', channel['slug'])
 
@@ -39,10 +42,10 @@ class Export(object):
 
                 stop = ''
                 if idx_prog < (l_prog - 1):
-                    stop =  channel['guide'][idx_prog + 1]['datetime']
+                    stop =  utc.localize(channel['guide'][idx_prog + 1]['datetime']).astimezone(tz).strftime('%Y%m%d%H%M%S %z')
 
                 programme = etree.Element('programme')
-                programme.set('start',prog['datetime'])
+                programme.set('start',utc.localize(prog['datetime']).astimezone(tz).strftime('%Y%m%d%H%M%S %z'))
                 programme.set('stop',stop)
                 programme.set('channel',channel['slug'])
 
@@ -54,7 +57,7 @@ class Export(object):
                 country.text = channel['country']
 
                 date = etree.Element('date')
-                date.text = prog['date']
+                date.text = prog['date'].strftime('%Y%m%d')
                 programme.append(date)
 
                 tv.append(programme)

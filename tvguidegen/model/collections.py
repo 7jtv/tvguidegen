@@ -15,6 +15,8 @@ class Channels(object):
             self.channels = self.db[self.collection_name].find(criteria)
         return self.channels
 
+    def aggregate(self,criteria):
+        return list(self.db[self.collection_name].aggregate(criteria))
     #def output(self):
     #    channels = self.getChannels()
     #    for channel in channels:
