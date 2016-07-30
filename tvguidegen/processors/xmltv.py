@@ -77,7 +77,7 @@ class Export(object):
                 country.text = channel['country']
 
                 date = etree.Element('date')
-                date.text = prog['date'].strftime('%Y%m%d')
+                date.text = prog['datetime'].strftime('%Y%m%d')
                 programme.append(date)
 
                 tv.append(programme)
