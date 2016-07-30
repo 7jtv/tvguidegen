@@ -3,8 +3,11 @@
 from lxml import etree
 from pytz import timezone
 from pytz import utc
+from slugify import slugify
 
 class Export(object):
+
+    totals = {'channels':0,'progs':0,'exact_match': 0,'variations_match':0,'total_match':0}
 
     def __init__(self,channels,m3uChannels=None,verbose=False):
         self.channels = channels
@@ -30,12 +33,14 @@ class Export(object):
 
             # Try exact match
             exactMatched = False
-            for idx,ex in enumerate([c['name'].upper().replace(' ','') == channel['name'].upper().replace(' ','').encode('utf-8') for c in self.m3uChannels]):
-                #print ex,idx
+
+            for idx,ex in enumerate([slugify(c['name'],separator="") == slugify(channel['name'],separator="").encode('utf-8') for c in self.m3uChannels]):
                 if ex:
                     if self.verbose: print "M3U channel %s name found. METHOD: Exact matching" % (self.m3uChannels[idx]['name'].encode('UTF-8'))
                     display_name_variations = [self.m3uChannels[idx]['name']]
                     exactMatched = True
+                    self.totals['exact_match'] += 1
+                    self.totals['total_match'] += 1
                     break
 
             if not exactMatched:
@@ -77,12 +82,17 @@ class Export(object):
                 country.text = channel['country']
 
                 date = etree.Element('date')
-                date.text = prog['date'].strftime('%Y%m%d')
+                date.text = prog['datetime'].strftime('%Y%m%d')
                 programme.append(date)
 
                 tv.append(programme)
+                self.totals['progs'] += 1
 
+            self.totals['channels'] += 1
             if self.verbose: print '**********************************************************************************************'
+
+        if self.verbose:
+            print "{channels} channels, {progs} programmations, {total_match} m3u channels matched (exact match: {exact_match}, variations match: {variations_match})".format(**self.totals)
 
         s = etree.tostring(tv,xml_declaration=True,encoding='UTf-8', doctype="<!DOCTYPE tv SYSTEM \"xmltv.dtd\">",pretty_print=prettyXml)
 
@@ -96,89 +106,51 @@ class Export(object):
         f.write(s)
         f.close()
 
+    def add_replace_variation(self,s,search,replace,variations):
+        if search in s:
+            variations.append(s.replace(search,replace))
+
     def get_variations(self,channel,addOriginalName=False):
-
         original_name = channel['name']
+        #name_no_spaces = original_name.replace(' ','')
+        slug = slugify(original_name,separator="")
         variations = []
-
         base_variations = [
-            original_name.title(),# Capitalize all words
-            original_name.lower(),# To lowercase
-            original_name.upper(),# To uppercase
-            original_name.lower().capitalize(),# To Capitalize first word
+            slug,
+            slug + "hd",
+            slug + channel['country'].lower(),
         ]
-        tmp = []
-        for bv in base_variations:
 
-            #Replace "-" by space and nothing
-            if '-' in bv:
-                tmp.append(bv.replace('-',' '))
-                tmp.append(bv.replace('-',''))
-            #Upper case the first word, if they are more than 1 word
-            if ' ' in bv:
-                tmp.append(bv.replace(' ','')) # remove all spaces
-                words = bv.split(' ')
-                tmp.append(bv.replace(words[0],words[0].upper())) # Upper case for the first word
-
-            # Add space between string and digit character
-            bvSpaceDigit = ''
-            for idx,s in enumerate(bv):
-                if s.isdigit() and idx > 0 and bv[idx - 1] != u' ':
-                    bvSpaceDigit += u' ' + s
-                else:
-                    bvSpaceDigit += s
-            if len(bvSpaceDigit) != len(bv) : # check if are changes in length
-                tmp.append(bvSpaceDigit)
-
-            # abrev channel word for paramount
-            tmp.append(bv.replace('channel', 'ch'))
-            tmp.append(bv.replace('channel', 'Ch'))
-            tmp.append(bv.replace('channel', 'CH'))
-            tmp.append(bv.replace('channel', 'ch.'))
-            tmp.append(bv.replace('channel', 'Ch.'))
-            tmp.append(bv.replace('channel', 'CH.'))
-            # change Specific to my m3u
-            tmp.append(bv.replace('Premier', 'Premiere'))
-            tmp.append(bv.replace('Nickelodeon','Nikolodeon'))
-            tmp.append(bv.replace('Planete','Planet'))
-            tmp.append(bv.replace('Planete+ A&E','Planet+ AE'))
-            tmp.append(bv.replace('NATIONAL GEO','NAT GEO'))
-            tmp.append(bv.replace('SCIENCE ET VIE TV','Sciences'))
-            tmp.append(bv.replace('D8','Direct 8'))
-            tmp.append(bv.replace("L'EQUIPE 21",'Equipe 21'))
-            tmp.append(bv.replace("MANGAS",'MANGA'))
-            tmp.append(bv.replace("FOOT+ 24/24",'Foot +'))
-            tmp.append(bv.replace("GOLF+",'Golf Channel FR'))
-            if len(bv.split()) == 1:
-                tmp.append(bv.replace("EQUIDIA LIFE",'Equidia'))
-                tmp.append(bv.replace("EUROSPORT 1",'EuroSport'))
-
-        base_variations += tmp
+        if original_name.find("+") > -1 :
+            base_variations.append(slugify(original_name.replace("+","plus"),separator=""))
+            base_variations.append(slugify(original_name.replace("+",""),separator=""))
 
         for bv in base_variations:
             variations.append(bv)
+            self.add_replace_variation(bv,'channel', 'ch',variations)
+            self.add_replace_variation(bv,'premier', 'premiere',variations)
+            self.add_replace_variation(bv,'nickelodeon', 'nikolodeon',variations)
+            self.add_replace_variation(bv,'planete','planet',variations)
+            self.add_replace_variation(bv,'mangas','manga',variations)
+            self.add_replace_variation(bv,'nationalgeo','natgeo',variations)
+            self.add_replace_variation(bv,'scienceetvietv','sciences',variations)
+            self.add_replace_variation(bv,'d8','direct8',variations)
+            self.add_replace_variation(bv,"lequipe21",'equipe21',variations)
+            self.add_replace_variation(bv,'foot2424','footplus',variations)
+            self.add_replace_variation(bv,"golf",'golfchannelfr',variations)
+            self.add_replace_variation(bv,"equidialife",'equidia',variations)
+            self.add_replace_variation(bv,"eurosport1",'eurosport',variations)
 
-            variations.append(bv + " HD") # Add HD to string's end
-            variations.append(bv + " " + channel['country'].upper()) # Add country upper case to string's end
-            variations.append(bv + " " + channel['country'].lower()) # Add country lower case to string's end
-
-            if original_name.find("+") > -1 :
-                variations.append(bv.replace("+",""))
-                variations.append(bv.replace(" +",""))
-                variations.append(bv.replace("+"," plus"))
-                variations.append(bv.replace("+"," Plus"))
-            #variations.append(bv)
 
         if addOriginalName : variations.append(original_name)
         if self.verbose: print '%d variations generated.' % (len(variations))
-        for ch in self.m3uChannels:
 
-            if ch['name'] in [v.encode('utf-8') for v in variations]:
+        for ch in self.m3uChannels:
+            if slugify(ch['name'],separator="") in [v.encode('utf-8') for v in variations]:
                 if self.verbose: print "M3U channel %s name found. METHOD: Variations matching" % (ch['name'].encode('UTF-8'))
+                self.totals['variations_match'] += 1
+                self.totals['total_match'] += 1
                 return [ch['name']] # Return only name found in m3u
-            elif ch['name'].upper().replace(' ','') in [v.replace(' ','').encode('utf-8') for v in variations]:
-                if self.verbose: print "M3U channel %s name found. METHOD: Variations upper without spaces matching" % (ch['name'].encode('UTF-8'))
-                return [ch['name']]
 
 
 
