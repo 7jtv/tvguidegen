@@ -91,7 +91,7 @@ def generate(outputfile,channels_src,m3uChannels_src=None,mongodb_uri=None,mongo
                         "$filter": {
                            "input": "$guide",
                            "as": "prog",
-                           "cond": { "$gte": [ "$$prog.date", (datetime.datetime.now() - datetime.timedelta(days=1)) ] }
+                           "cond": { "$gte": [ "$$prog.datetime", (datetime.datetime.now() - datetime.timedelta(days=1)) ] }
                         }
                      }
                   }
