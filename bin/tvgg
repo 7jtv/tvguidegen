@@ -14,8 +14,9 @@ def main(argv):
     mongodb_db = None
     limit = None
     verbose = False
+    pretty=False
     try:
-        opts, args = getopt.getopt(argv,"hvl:o:c:",["help","m3u-channels=","output=","channels=","mongodb-uri=","mongodb-db=","limit="])
+        opts, args = getopt.getopt(argv,"hvl:o:c:",["help","m3u-channels=","output=","channels=","mongodb-uri=","mongodb-db=","limit=","pretty"])
     except getopt.GetoptError as err:
         print err
         print 'Type -h,--help for command help'
@@ -35,6 +36,8 @@ def main(argv):
             channels_src = arg
         elif opt in ("-l", "--limit"):
             limit = int(arg)
+        elif opt in ("--pretty"):
+            pretty = True
         elif opt ==  "--m3u-channels":
             m3uChannels_src = arg
         elif opt ==  "--mongodb-uri":
@@ -42,10 +45,14 @@ def main(argv):
         elif opt ==  "--mongodb-db":
             mongodb_db = arg
 
-    generate(outputfile,channels_src,m3uChannels_src,mongodb_uri,mongodb_db,limit,verbose)
+    if channels_src is None:
+        print "Channels source argument required."
+        sys.exit(2)
+
+    generate(outputfile,channels_src,m3uChannels_src,mongodb_uri,mongodb_db,limit,verbose,pretty)
 
 
-def generate(outputfile,channels_src,m3uChannels_src=None,mongodb_uri=None,mongodb_db=None,limit=None,verbose=False):
+def generate(outputfile,channels_src,m3uChannels_src=None,mongodb_uri=None,mongodb_db=None,limit=None,verbose=False,pretty=False):
 
 
     from tvguidegen.model import collections
@@ -54,8 +61,8 @@ def generate(outputfile,channels_src,m3uChannels_src=None,mongodb_uri=None,mongo
 
     m3uChannels = []
 
-    if outputfile is None or channels_src is None:
-        print ("Output file or channels source arguments can not be empty")
+    if channels_src is None:
+        print ("Channels source arguments can not be empty")
         sys.exit(1)
 
     if mongodb_uri:
@@ -145,7 +152,7 @@ def generate(outputfile,channels_src,m3uChannels_src=None,mongodb_uri=None,mongo
     try:
         if verbose: print "Begin export..."
 
-        xmltv.Export(channels,m3uChannels,verbose=verbose).run(filename=outputfile)
+        xmltv.Export(channels,m3uChannels,verbose=verbose).run(filename=outputfile,outputXml=not outputfile,prettyXml=pretty)
 
         if verbose: print "File %s generated." % (outputfile)
 
@@ -163,15 +170,15 @@ def usage(exitcode=0):
     print ' * '
     print ' * Typical usage:'
     print ' *   * With JSON file source:'
-    print ' *     ~# tvguidegen -o <outputfile> -c /data/tvguide.json --m3u-channels=/data/mym3uchannels.json'
+    print ' *     ~# tvgg -c /data/tvguide.json -o <outputfile>  --m3u-channels=/data/mym3uchannels.json'
     print ' *'
     print ' *   * With mongodb collection source:'
-    print ' *     ~# tvguidegen -o <outputfile> -c channels_collection --m3u-channels=http://example.com/list.m3u --mongodb-uri=localhost --mongodb-db=tvguide --limit=50'
-    print ' *'
-    print ' * -o, --output      Output filename'
+    print ' *     ~# tvgg -c channels_collection -o <outputfile>  --m3u-channels=http://example.com/list.m3u --mongodb-uri=localhost --mongodb-db=tvguide --limit=50'
     print ' *'
     print ' * -c, --channels    Filename path with Channels and TV programing content in JSON format'
-    print ' *                   or a Mongodb collection name.'
+    print ' *                   or a Mongodb collection name. (MANDATORY)'
+    print ' *'
+    print ' * -o, --output      Output filename. If not set, Tv guide will be output to STDOUT.'
     print ' *'
     print ' * --m3u-channels    Filename path or url with your channels names (Eg. From m3u playlist) in M3U format.(Optionnal)'
     print ' *                   This useful to match your channels with tv guide channels source.'
