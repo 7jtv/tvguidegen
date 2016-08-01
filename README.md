@@ -26,18 +26,18 @@ You can install Tvguidegen using pip (which is the canonical way to install Pyth
 
 + With JSON file source:
 
-  `~# tvgg -o <outputfile> -c /data/tvguide.json --m3u-channels=/data/mym3uchannels.json`
+  `~# tvgg -c /data/tvguide.json -o <outputfile> --m3u-channels=/data/mym3uchannels.json`
 
 + With mongodb collection source:
 
-  `~# tvgg -o <outputfile> -c channels_collection --m3u-channels=http://exaple.com/list.m3u --mongodb-uri=localhost --mongodb-db=tvguide --limit=50`
+  `~# tvgg -c channels_collection -o <outputfile>  --m3u-channels=http://exaple.com/list.m3u --mongodb-uri=localhost --mongodb-db=tvguide --limit=50`
 
 ### Command Line Arguments
 ```
--o, --output      Output filename
-
 -c, --channels    Filename path with Channels and TV programing content in JSON format
                   or a Mongodb collection name.
+
+-o, --output      Output filename. If not set, Tv guide will be output to STDOUT.
 
 --m3u-channels    Filename path or url with your channels names (Eg. From m3u playlist) in M3U format (Optionnal)
                   This useful to match your channels with tv guide source data
