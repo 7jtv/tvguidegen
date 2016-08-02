@@ -94,6 +94,7 @@ def generate(outputfile,channels_src,m3uChannels_src=None,mongodb_uri=None,mongo
                      "country": 1,
                      "locale": 1,
                      "logo": 1,
+                     "groups": 1,
                      "guide": {
                         "$filter": {
                            "input": "$guide",
@@ -145,21 +146,21 @@ def generate(outputfile,channels_src,m3uChannels_src=None,mongodb_uri=None,mongo
 
     if  m3uChannels_src:
         if m3uChannels_src.startswith('http'):
-            m3uChannels = list(tools.Extractor(url=m3uChannels_src).extract())
+            m3uChannels = tools.Extractor(url=m3uChannels_src).extract()
         else:
-            m3uChannels = list(tools.Extractor(filename=m3uChannels_src).extract())
+            m3uChannels = tools.Extractor(filename=m3uChannels_src).extract()
 
-    try:
-        if verbose: print "Begin export..."
+    #try:
+    if verbose: print "Begin export..."
 
-        xmltv.Export(channels,m3uChannels,verbose=verbose).run(filename=outputfile,outputXml=not outputfile,prettyXml=pretty)
+    xmltv.Export(channels,m3uChannels,verbose=verbose).run(filename=outputfile,outputXml=not outputfile,prettyXml=pretty)
 
-        if verbose: print "File %s generated." % (outputfile)
+    if verbose: print "File %s generated." % (outputfile)
 
-    except Exception as e:
-        if verbose: raise e
-        print("Error: {0}".format(e))
-        sys.exit(1)
+    #except Exception as e:
+    #    if verbose: raise e
+    #    print("Error: {0}".format(e))
+    #    sys.exit(1)
 
 def usage(exitcode=0):
 
