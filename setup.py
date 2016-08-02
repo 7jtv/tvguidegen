@@ -1,7 +1,7 @@
 from setuptools import setup,find_packages
 
 setup(name='tvguidegen',
-      version='0.2.1',
+      version='0.2.2',
       description='TV Guide Generator',
       url='https://github.com/7jtv/tvguidegen',
       author='Kas IPTV',
