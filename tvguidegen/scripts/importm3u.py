@@ -20,7 +20,7 @@ class ImportM3uChannels(object):
 if __name__ == '__main__':
     extractor = Exractor("data/m3u/list.m3u.sample")
 
-    mongo_uri = sys.argv[1] if len(sys.argv) > 1 else: '127.0.0.1'
-    mongo_db = sys.argv[2] if len(sys.argv) > 2 else: 'tvguide'
-    mongo_collection = sys.argv[3] if len(sys.argv) > 3 else: 'channels_m3u'
+    mongo_uri = sys.argv[1] if len(sys.argv) > 1 else '127.0.0.1'
+    mongo_db = sys.argv[2] if len(sys.argv) > 2 else 'tvguide'
+    mongo_collection = sys.argv[3] if len(sys.argv) > 3 else 'channels_m3u'
     ImportM3uChannels(mongo_uri,mongo_db,mongo_collection).importM3u(extractor.extract())

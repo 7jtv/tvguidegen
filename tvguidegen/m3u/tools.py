@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-
+import re
+from collections import defaultdict
 class Extractor(object):
 
     lines = []
@@ -25,7 +26,16 @@ class Extractor(object):
 
 
     def extract(self):
+        channel_name = {}
+        group = 'all';
         for line in self.lines:
             if line.find(",") > -1 :
-                channel_name = {'name':line.split(",")[-1].strip()}
-                yield channel_name
+                res = re.search('group-title="(.+?)"',line)
+                if res:
+                    group = res.group(1).lower()
+
+                if not group in channel_name: channel_name[group] = []
+
+                channel_name[group].append(line.split(",")[-1].strip())
+
+        return channel_name

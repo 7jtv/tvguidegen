@@ -23,28 +23,39 @@ class Export(object):
 
         for channel in channels:
 
+            #if channel['name'] != 'NAT GEO WILD':
+            #    continue
+
             if self.verbose:
                 print '**********************************************************************************************'
                 print "Process tv guide for %s" % (channel['name'])
 
             tz = timezone(channel['timezone'])
+            group = 'all'
+            groups = channel['groups']
             ch = etree.Element('channel')
             ch.set('id', channel['slug'])
 
             # Try exact match
             exactMatched = False
+            display_name_variations = []
+            # TODO COMPARE BEFORE groups for DIRECT MATCHING
 
-            for idx,ex in enumerate([slugify(c['name'],separator="") == slugify(channel['name'],separator="").encode('utf-8') for c in self.m3uChannels]):
+            for g in groups:
+                if g in self.m3uChannels:
+                    group = g
+
+            for idx,ex in enumerate([slugify(c,separator="") == slugify(channel['name'],separator="").encode('utf-8') for c in self.m3uChannels[group]]):
                 if ex:
-                    if self.verbose: print "M3U channel %s name found. METHOD: Exact matching" % (self.m3uChannels[idx]['name'].encode('UTF-8'))
-                    display_name_variations = [self.m3uChannels[idx]['name']]
+                    if self.verbose: print "M3U channel %s name found. METHOD: Exact matching" % (self.m3uChannels[group][idx].encode('UTF-8'))
+                    display_name_variations = [self.m3uChannels[group][idx]]
                     exactMatched = True
                     self.totals['exact_match'] += 1
                     self.totals['total_match'] += 1
                     break
 
             if not exactMatched:
-                display_name_variations = self.get_variations(channel,True)
+                display_name_variations = self.get_variations(channel,True,self.m3uChannels[group])
 
             if self.verbose and len(display_name_variations) > 1 and self.m3uChannels:
                 print "Not m3u matching for %s" % (channel['name'])
@@ -110,7 +121,7 @@ class Export(object):
         if search in s:
             variations.append(s.replace(search,replace))
 
-    def get_variations(self,channel,addOriginalName=False):
+    def get_variations(self,channel,addOriginalName=False,m3uChannels=None):
         original_name = channel['name']
         #name_no_spaces = original_name.replace(' ','')
         slug = slugify(original_name,separator="")
@@ -127,6 +138,7 @@ class Export(object):
 
         for bv in base_variations:
             variations.append(bv)
+            # Custom variations for canalsat group
             self.add_replace_variation(bv,'channel', 'ch',variations)
             self.add_replace_variation(bv,'premier', 'premiere',variations)
             self.add_replace_variation(bv,'nickelodeon', 'nikolodeon',variations)
@@ -140,17 +152,19 @@ class Export(object):
             self.add_replace_variation(bv,"golf",'golfchannelfr',variations)
             self.add_replace_variation(bv,"equidialife",'equidia',variations)
             self.add_replace_variation(bv,"eurosport1",'eurosport',variations)
+            self.add_replace_variation(bv,"sport",'sports',variations)
+            self.add_replace_variation(bv,"sports",'sport',variations)
 
 
         if addOriginalName : variations.append(original_name)
         if self.verbose: print '%d variations generated.' % (len(variations))
 
-        for ch in self.m3uChannels:
-            if slugify(ch['name'],separator="") in [v.encode('utf-8') for v in variations]:
-                if self.verbose: print "M3U channel %s name found. METHOD: Variations matching" % (ch['name'].encode('UTF-8'))
+        for ch in m3uChannels:
+            if slugify(ch,separator="") in [v.encode('utf-8') for v in variations]:
+                if self.verbose: print "M3U channel %s name found. METHOD: Variations matching" % (ch.encode('UTF-8'))
                 self.totals['variations_match'] += 1
                 self.totals['total_match'] += 1
-                return [ch['name']] # Return only name found in m3u
+                return [ch] # Return only name found in m3u
 
 
 
