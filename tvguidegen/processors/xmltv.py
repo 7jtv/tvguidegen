@@ -23,7 +23,7 @@ class Export(object):
 
         for channel in channels:
 
-            #if channel['name'] != 'NAT GEO WILD':
+            #if channel['name'] != 'BEIN SPORTS 1':
             #    continue
 
             if self.verbose:
@@ -128,8 +128,9 @@ class Export(object):
         variations = []
         base_variations = [
             slug,
-            slug + "hd",
             slug + channel['country'].lower(),
+            slug + "hd",
+
         ]
 
         if original_name.find("+") > -1 :
@@ -159,12 +160,21 @@ class Export(object):
         if addOriginalName : variations.append(original_name)
         if self.verbose: print '%d variations generated.' % (len(variations))
 
-        for ch in m3uChannels:
-            if slugify(ch,separator="") in [v.encode('utf-8') for v in variations]:
-                if self.verbose: print "M3U channel %s name found. METHOD: Variations matching" % (ch.encode('UTF-8'))
-                self.totals['variations_match'] += 1
-                self.totals['total_match'] += 1
-                return [ch] # Return only name found in m3u
+        # Loop on variations to prior local country
+        for variation in [v.encode('utf-8') for v in variations]:
+            for ch in m3uChannels:
+                if variation == slugify(ch,separator="") :
+                    if self.verbose: print "M3U channel %s name found. METHOD: Variations matching" % (ch.encode('UTF-8'))
+                    self.totals['variations_match'] += 1
+                    self.totals['total_match'] += 1
+                    return [ch] # Return only name found in m3u
+
+        #for ch in m3uChannels:
+        #    if slugify(ch,separator="") in [v.encode('utf-8') for v in variations]:
+        #        if self.verbose: print "M3U channel %s name found. METHOD: Variations matching" % (ch.encode('UTF-8'))
+        #        self.totals['variations_match'] += 1
+        #        self.totals['total_match'] += 1
+        #        return [ch] # Return only name found in m3u
 
 
 
