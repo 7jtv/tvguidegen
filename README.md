@@ -51,6 +51,8 @@ You can install Tvguidegen using pip (which is the canonical way to install Pyth
 
 -l, --limit       Limit channels to generate. (Optionnal)
 
+--m3u-only        Export only matched channels.
+
 -v                Verbose script execution. (Optionnal)
 ```
 

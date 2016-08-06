@@ -14,7 +14,9 @@ setup(name='tvguidegen',
           'pymongo',
           'lxml',
           'pytz',
-          'python-slugify'
+          'python-slugify',
+          'fuzzywuzzy',
+          #'python-Levenshtein'
       ],
       long_description = open("README.md").read(),
       zip_safe=False

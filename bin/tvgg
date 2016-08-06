@@ -15,8 +15,9 @@ def main(argv):
     limit = None
     verbose = False
     pretty=False
+    m3u_only=False
     try:
-        opts, args = getopt.getopt(argv,"hvl:o:c:",["help","m3u-channels=","output=","channels=","mongodb-uri=","mongodb-db=","limit=","pretty"])
+        opts, args = getopt.getopt(argv,"hvl:o:c:",["help","m3u-channels=","output=","channels=","mongodb-uri=","mongodb-db=","limit=","pretty","m3u-only"])
     except getopt.GetoptError as err:
         print err
         print 'Type -h,--help for command help'
@@ -38,6 +39,8 @@ def main(argv):
             limit = int(arg)
         elif opt in ("--pretty"):
             pretty = True
+        elif opt in ("--m3u-only"):
+            m3u_only = True
         elif opt ==  "--m3u-channels":
             m3uChannels_src = arg
         elif opt ==  "--mongodb-uri":
@@ -49,10 +52,10 @@ def main(argv):
         print "Channels source argument required."
         sys.exit(2)
 
-    generate(outputfile,channels_src,m3uChannels_src,mongodb_uri,mongodb_db,limit,verbose,pretty)
+    generate(outputfile,channels_src,m3uChannels_src,mongodb_uri,mongodb_db,limit,verbose,pretty,m3u_only)
 
 
-def generate(outputfile,channels_src,m3uChannels_src=None,mongodb_uri=None,mongodb_db=None,limit=None,verbose=False,pretty=False):
+def generate(outputfile,channels_src,m3uChannels_src=None,mongodb_uri=None,mongodb_db=None,limit=None,verbose=False,pretty=False,m3u_only=False):
 
 
     from tvguidegen.model import collections
@@ -153,7 +156,7 @@ def generate(outputfile,channels_src,m3uChannels_src=None,mongodb_uri=None,mongo
     #try:
     if verbose: print "Begin export..."
 
-    xmltv.Export(channels,m3uChannels,verbose=verbose).run(filename=outputfile,outputXml=not outputfile,prettyXml=pretty)
+    xmltv.Export(channels,m3uChannels,verbose=verbose).run(filename=outputfile,outputXml=not outputfile,prettyXml=pretty,m3u_only=m3u_only)
 
     if verbose: print "File %s generated." % (outputfile)
 
@@ -183,6 +186,8 @@ def usage(exitcode=0):
     print ' *'
     print ' * --m3u-channels    Filename path or url with your channels names (Eg. From m3u playlist) in M3U format.(Optionnal)'
     print ' *                   This useful to match your channels with tv guide channels source.'
+    print ' *'
+    print ' * --m3u-only        Export only matched channels.'
     print ' *'
     print ' * --mongodb-uri     Mongodb HOST URI.(Optionnal)'
     print ' *                   If is set,--channels and --m3u-channels are selected from Mongodb\'s collections'
