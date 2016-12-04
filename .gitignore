@@ -9,6 +9,7 @@
 # Data
 data/*
 data/m3u/*.m3u
+*.memo
 
 # Credentials
 settings.py
