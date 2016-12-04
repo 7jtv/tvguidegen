@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+import re
 from lxml import etree
 from pytz import timezone
 from pytz import utc
@@ -301,13 +301,39 @@ class Export(object):
         if original_name.find(" ") > -1 :
             variations.append(original_name.replace(' ', ''))
 
+        # Add space between number and string
+        findPattern = r'([0-9])([a-zA-Z])'
+        replacePattern  = r'\1 \2'
+        sub = re.sub(findPattern,replacePattern,original_name.lower())
+        if original_name.lower() != sub :
+            variations.append(sub)
+
         # TODO create a dictionnary file for variations
         if original_name.lower().find("channel") > -1 :
             variations.append(original_name.lower().replace('channel', 'ch'))
 
+        if original_name.lower().find("cinema") > -1 :
+            variations.append(original_name.lower().replace('cinema', ''))
+
+        if original_name.lower().find("jr") > -1 :
+            variations.append(original_name.lower().replace('jr', 'junior'))
+
+        if original_name.lower().find("4teen") > -1 :
+            variations.append(original_name.lower().replace('4teen', '4 teen'))
+
+        if original_name.lower().find("c8") > -1 :
+            variations.append(original_name.lower().replace('c8', 'direct 8'))
+
+        if original_name.lower().find("cstar") > -1 :
+            variations.append(original_name.lower().replace('cstar', 'd 17'))
+
+        if original_name.lower().find("l'equipe") > -1 :
+            variations.append(original_name.lower().replace('l\'equipe', 'equipe 21'))
+
+
         numbers = {'one':'1','two':'2','three':'3','four':'4','five':'5'}
         for l,n in numbers.iteritems():
-            if l in original_name.lower():
+            if l in original_name.lower() and original_name.lower() != 'j-one':
                 variations.append(original_name.lower().replace(l, n))
 
         if addOriginalName : variations.append(original_name)
