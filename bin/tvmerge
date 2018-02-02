@@ -1,0 +1,89 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+""" Script XML Merge """
+
+import sys, getopt
+from lxml import etree
+
+def main(argv):
+    dest = 'all.xml'
+    files = []
+    verbose = False
+
+    try:
+        opts, args = getopt.getopt(argv,"hd:f:v",["help","dest","files="])
+    except getopt.GetoptError as err:
+        print err
+        print 'Type -h,--help for command help'
+        sys.exit(2)
+
+    if len(sys.argv) < 2:
+        usage()
+
+    for opt, arg in opts:
+        if opt in ('-h','--help'):
+            usage()
+        elif opt ==  "-v":
+            verbose = True
+        elif opt in ("-f", "--files"):
+            files = arg
+        elif opt in ("-d", "--dest"):
+            dest = arg
+
+    if files is None:
+        print "Files sources to merge argument is required."
+        sys.exit(2)
+
+    files = files.split(',')
+    merge(files,dest,verbose)
+    print 'Files %s merged in %s' % (','.join(files),dest)
+
+
+def merge(files,dest='all.xml',verbose=False):
+    if not type(files) is list:
+        raise Exception('Files var is not a list!')
+
+    tv = etree.Element('tv')
+    tv.set("generator-info-name", "7JTV XMLTV generator")
+
+    for filename in files:
+        if verbose: print 'Open file %s' % filename
+        tree = etree.parse(open(filename,'r'))
+        root = tree.getroot()
+        for child in root:
+            tv.append(child)
+
+    if verbose: print 'Write file %s' % dest
+    s = etree.tostring(tv,xml_declaration=True,encoding='UTf-8', doctype="<!DOCTYPE tv SYSTEM \"xmltv.dtd\">",pretty_print=False)
+    write(s,dest)
+
+
+def write(s,filename):
+    # pretty string
+    f = open(filename, 'w')
+    f.write(s)
+    f.close()
+
+def usage(exitcode=0):
+
+    print ' *********************************************************************************************************************************************************'
+    print ' *'
+    print ' * XML MERGE'
+    print ' * Python script used to merge xml files with the same rootXML'
+    print ' * '
+    print ' * Typical usage:'
+    print ' *     ~# tvmerge -f "[\'file1\',\'file2\'] -d all.xml'
+    print ' *'
+    print ' * -f, --files    Files sources to merge. MANDATORY'
+    print ' *'
+    print ' * -d, --dest     Output filename. If not set, Tv guide will be output to STDOUT.'
+    print ' *                   Default: all.xml'
+    print ' * '
+    print ' * '
+    print ' * 7jtv (kas.iptv@gmail.com)'
+    print ' *********************************************************************************************************************************************************'
+    sys.exit(exitcode)
+
+if __name__ == "__main__":
+    main(sys.argv[1:])
