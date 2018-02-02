@@ -32,7 +32,7 @@ class Export(object):
     def run(self,filename="data/xmltv/all.xml",outputXml=False,prettyXml=False,m3u_only=False):
         # create XML
         tv = etree.Element('tv')
-        tv.set("generator-info-name", "Kas-IPTV generator")
+        tv.set("generator-info-name", "7JTV XMLTV generator")
 
         channels = self.channels
 
@@ -319,10 +319,10 @@ class Export(object):
             variations.append(original_name.lower().replace('jr', 'junior'))
 
         if original_name.lower().find("4teen") > -1 :
-            variations.append(original_name.lower().replace('4teen', '4 teen'))
+            variations.append(original_name.lower().replace('4teen', '4 teens'))
 
         if original_name.lower().find("c8") > -1 :
-            variations.append(original_name.lower().replace('c8', 'direct 8'))
+            variations.append(original_name.lower().replace('c8', 'c-8'))
 
         if original_name.lower().find("cstar") > -1 :
             variations.append(original_name.lower().replace('cstar', 'd 17'))
